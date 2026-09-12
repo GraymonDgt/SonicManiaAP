@@ -1,0 +1,17 @@
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/include/GL/gl.h
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/include/GL/glu.h
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/lib/OpenGL32.Lib
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/lib/GlU32.Lib
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/debug/lib/OpenGL32.Lib
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/debug/lib/GlU32.Lib
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/opengl_x64-windows-static/lib/pkgconfig/glu.pc
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/opengl_x64-windows-static/lib/pkgconfig/opengl.pc
+Downloading msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst, trying https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+Successfully downloaded msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+Downloading msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst, trying https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+Successfully downloaded msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at C:/src/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/opengl_x64-windows-static/debug/lib/pkgconfig/glu.pc
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/opengl_x64-windows-static/debug/lib/pkgconfig/opengl.pc
+-- Installing: C:/src/vcpkg/packages/opengl_x64-windows-static/share/opengl/usage
+-- Performing post-build validation

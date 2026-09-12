@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/src/vcpkg/buildtrees/libogg/x64-windows-static-dbg/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

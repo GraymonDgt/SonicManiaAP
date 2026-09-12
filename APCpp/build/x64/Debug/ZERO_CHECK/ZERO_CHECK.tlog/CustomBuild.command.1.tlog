@@ -1,0 +1,10 @@
+^C:\SRC\APCPP\BUILD\CMAKEFILES\9D91E847F52A57D2C7BF8BF0621F96EB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp -BC:/src/APCpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/src/APCpp/build/APCpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

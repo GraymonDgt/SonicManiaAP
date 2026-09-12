@@ -1,0 +1,14 @@
+-- Using cached open-source-parsers-jsoncpp-1.9.6.tar.gz
+-- Cleaning sources at C:/src/vcpkg/buildtrees/jsoncpp/src/1.9.6-29ceffc35f.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/src/vcpkg/downloads/open-source-parsers-jsoncpp-1.9.6.tar.gz
+-- Using source at C:/src/vcpkg/buildtrees/jsoncpp/src/1.9.6-29ceffc35f.clean
+-- Configuring x64-windows-static
+-- Building x64-windows-static-dbg
+-- Building x64-windows-static-rel
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/lib/pkgconfig/jsoncpp.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at C:/src/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/pkgconfig/jsoncpp.pc
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/share/jsoncpp/copyright
+-- Performing post-build validation

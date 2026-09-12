@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/mbedtls-3.6.4/3rdparty/everest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/mbedtls-3.6.4/3rdparty/everest/include/everest"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mbedtls_bin/3rdparty/everest/everest.lib"
+			],
+			"targetId" : "everest::@f6fca4e378fcd7631233",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "everest::@f6fca4e378fcd7631233",
+				"index" : 2
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "mbedtls_bin/3rdparty/everest",
+		"source" : "out/build/x64-Debug/mbedtls-3.6.4/3rdparty/everest"
+	}
+}

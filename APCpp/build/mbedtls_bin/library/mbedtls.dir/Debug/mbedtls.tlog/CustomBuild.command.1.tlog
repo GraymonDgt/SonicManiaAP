@@ -1,0 +1,10 @@
+^C:\SRC\APCPP\BUILD\MBEDTLS-3.6.4\LIBRARY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp -BC:/src/APCpp/build --check-stamp-file C:/src/APCpp/build/mbedtls_bin/library/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

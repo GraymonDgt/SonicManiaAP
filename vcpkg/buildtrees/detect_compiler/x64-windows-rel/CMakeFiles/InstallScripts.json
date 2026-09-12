@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/src/vcpkg/buildtrees/detect_compiler/x64-windows-rel/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

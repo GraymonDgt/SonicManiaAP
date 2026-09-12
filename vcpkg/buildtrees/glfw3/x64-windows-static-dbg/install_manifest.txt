@@ -1,0 +1,8 @@
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/lib/glfw3.lib
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/include/GLFW/glfw3.h
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/include/GLFW/glfw3native.h
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/lib/cmake/glfw3/glfw3Config.cmake
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/lib/cmake/glfw3/glfw3Targets.cmake
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/lib/cmake/glfw3/glfw3Targets-debug.cmake
+C:/src/vcpkg/packages/glfw3_x64-windows-static/debug/lib/pkgconfig/glfw3.pc

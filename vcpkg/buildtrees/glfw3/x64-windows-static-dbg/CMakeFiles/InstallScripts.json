@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-dbg/cmake_install.cmake",
+		"C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-dbg/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

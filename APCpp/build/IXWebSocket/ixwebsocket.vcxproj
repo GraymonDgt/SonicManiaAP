@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C4194FD-BEE7-3992-85C5-076A6097328D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ixwebsocket</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\src\APCpp\build\IXWebSocket\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ixwebsocket.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ixwebsocket</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\src\APCpp\build\IXWebSocket\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ixwebsocket.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ixwebsocket</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\src\APCpp\build\IXWebSocket\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ixwebsocket.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ixwebsocket</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\src\APCpp\build\IXWebSocket\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ixwebsocket.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ixwebsocket</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IXWEBSOCKET_USE_TLS;IXWEBSOCKET_USE_MBED_TLS;IXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3;IXWEBSOCKET_USE_ZLIB;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\src\APCpp\build\mbedtls-3.6.4\include;C:\src\APCpp\IXWebSocket;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\everest\include;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m;C:\src\APCpp\build\mbedtls-3.6.4\3rdparty\p256-m\p256-m;C:\src\APCpp\build\_deps\zlib-build;C:\src\APCpp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\src\APCpp\IXWebSocket\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/src/APCpp/IXWebSocket/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp -BC:/src/APCpp/build --check-stamp-file C:/src/APCpp/build/IXWebSocket/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\src\APCpp\IXWebSocket\CMake\FindMbedTLS.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config-version.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\src\APCpp\build\IXWebSocket\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/src/APCpp/IXWebSocket/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp -BC:/src/APCpp/build --check-stamp-file C:/src/APCpp/build/IXWebSocket/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\src\APCpp\IXWebSocket\CMake\FindMbedTLS.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config-version.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\src\APCpp\build\IXWebSocket\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/src/APCpp/IXWebSocket/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp -BC:/src/APCpp/build --check-stamp-file C:/src/APCpp/build/IXWebSocket/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\src\APCpp\IXWebSocket\CMake\FindMbedTLS.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config-version.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\src\APCpp\build\IXWebSocket\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/src/APCpp/IXWebSocket/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp -BC:/src/APCpp/build --check-stamp-file C:/src/APCpp/build/IXWebSocket/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\src\APCpp\IXWebSocket\CMake\FindMbedTLS.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config-version.cmake;C:\src\APCpp\build\CMakeFiles\pkgRedirects\zlib-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\src\APCpp\build\IXWebSocket\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXBench.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXCancellationRequest.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXConnectionState.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXDNSLookup.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXExponentialBackoff.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXGetFreePort.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXGzipCodec.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXHttp.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXHttpClient.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXHttpServer.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXNetSystem.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterrupt.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterruptFactory.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterruptPipe.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterruptEvent.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSetThreadName.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocket.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketConnect.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketFactory.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketServer.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketTLSOptions.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXStrCaseCompare.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUdpSocket.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUrlParser.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUuid.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUserAgent.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocket.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketCloseConstants.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketHandshake.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketHttpHeaders.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflate.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateCodec.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateOptions.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketProxyServer.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketServer.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketTransport.cpp" />
+    <ClCompile Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketMbedTLS.cpp" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXBase64.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXBench.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXCancellationRequest.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXConnectionState.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXDNSLookup.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXExponentialBackoff.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXGetFreePort.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXGzipCodec.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXHttp.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXHttpClient.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXHttpServer.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXNetSystem.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXProgressCallback.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterrupt.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterruptFactory.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterruptPipe.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSelectInterruptEvent.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSetThreadName.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocket.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketConnect.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketFactory.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketServer.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketTLSOptions.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXStrCaseCompare.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUdpSocket.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUniquePtr.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUrlParser.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUuid.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUtf8Validator.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXUserAgent.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocket.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketCloseConstants.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketCloseInfo.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketErrorInfo.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketHandshake.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketHandshakeKeyGen.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketHttpHeaders.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketInitResult.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketMessage.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketMessageType.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketOpenInfo.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflate.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateCodec.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateOptions.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketProxyServer.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketSendData.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketSendInfo.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketServer.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketTransport.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXWebSocketVersion.h" />
+    <ClInclude Include="C:\src\APCpp\IXWebSocket\ixwebsocket\IXSocketMbedTLS.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\src\APCpp\build\ZERO_CHECK.vcxproj">
+      <Project>{072A8651-8DFF-33BB-B38D-2B1D46946F46}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\src\APCpp\build\mbedtls_bin\3rdparty\everest\everest.vcxproj">
+      <Project>{526F87A8-7D36-3B8D-9DB0-7E17E2EA0FB6}</Project>
+      <Name>everest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\src\APCpp\build\mbedtls_bin\library\mbedcrypto.vcxproj">
+      <Project>{725E6FF5-9032-3BD3-AF73-436CB5E5164C}</Project>
+      <Name>mbedcrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\src\APCpp\build\mbedtls_bin\library\mbedtls.vcxproj">
+      <Project>{72BA9884-17CA-344D-8A08-507E57969D88}</Project>
+      <Name>mbedtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\src\APCpp\build\mbedtls_bin\library\mbedx509.vcxproj">
+      <Project>{CAF30D97-10B4-35E8-AC8E-0EA9991C20FD}</Project>
+      <Name>mbedx509</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\src\APCpp\build\mbedtls_bin\3rdparty\p256-m\p256m.vcxproj">
+      <Project>{734B1EDB-047B-3111-B9B6-A2ED9DC9B68E}</Project>
+      <Name>p256m</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\src\APCpp\build\_deps\zlib-build\zlibstatic.vcxproj">
+      <Project>{10C6A920-0519-3AD7-8D0A-DE1E7811249D}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/mbedtls-3.6.4/library/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 345,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 345,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 345,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mbedtls_bin/library/mbedcrypto.lib"
+			],
+			"targetId" : "mbedcrypto::@7d723c1208cb0d8dc644",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mbedtls_bin/library/mbedx509.lib"
+			],
+			"targetId" : "mbedx509::@7d723c1208cb0d8dc644",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mbedtls_bin/library/mbedtls.lib"
+			],
+			"targetId" : "mbedtls::@7d723c1208cb0d8dc644",
+			"targetIndex" : 8,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "mbedtls_bin/library",
+		"source" : "out/build/x64-Debug/mbedtls-3.6.4/library"
+	}
+}
