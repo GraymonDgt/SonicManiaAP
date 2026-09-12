@@ -1,0 +1,224 @@
+[
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXBench.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXBench.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXBench.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXBench.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXCancellationRequest.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXCancellationRequest.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXCancellationRequest.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXCancellationRequest.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXConnectionState.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXConnectionState.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXConnectionState.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXConnectionState.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXDNSLookup.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXDNSLookup.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXDNSLookup.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXDNSLookup.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXExponentialBackoff.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXExponentialBackoff.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXExponentialBackoff.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXExponentialBackoff.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXGetFreePort.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXGetFreePort.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXGetFreePort.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXGetFreePort.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXGzipCodec.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXGzipCodec.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXGzipCodec.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXGzipCodec.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXHttp.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXHttp.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXHttp.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXHttp.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXHttpClient.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXHttpClient.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXHttpClient.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXHttpClient.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXHttpServer.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXHttpServer.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXHttpServer.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXHttpServer.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXNetSystem.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXNetSystem.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXNetSystem.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXNetSystem.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterrupt.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterrupt.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterrupt.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterrupt.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterruptFactory.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterruptFactory.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterruptFactory.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterruptFactory.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterruptPipe.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterruptPipe.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterruptPipe.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterruptPipe.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterruptEvent.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterruptEvent.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSelectInterruptEvent.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSelectInterruptEvent.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSetThreadName.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSetThreadName.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSetThreadName.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSetThreadName.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocket.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocket.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocket.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocket.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketConnect.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketConnect.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketConnect.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketConnect.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketFactory.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketFactory.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketFactory.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketFactory.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketServer.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketServer.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketServer.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketServer.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketTLSOptions.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketTLSOptions.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketTLSOptions.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketTLSOptions.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXStrCaseCompare.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXStrCaseCompare.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXStrCaseCompare.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXStrCaseCompare.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUdpSocket.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUdpSocket.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUdpSocket.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUdpSocket.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUrlParser.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUrlParser.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUrlParser.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUrlParser.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUuid.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUuid.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUuid.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUuid.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUserAgent.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUserAgent.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXUserAgent.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXUserAgent.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocket.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocket.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocket.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocket.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketCloseConstants.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketCloseConstants.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketCloseConstants.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketCloseConstants.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketHandshake.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketHandshake.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketHandshake.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketHandshake.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketHttpHeaders.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketHttpHeaders.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketHttpHeaders.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketHttpHeaders.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketPerMessageDeflate.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketPerMessageDeflate.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketPerMessageDeflate.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketPerMessageDeflate.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketPerMessageDeflateCodec.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketPerMessageDeflateCodec.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketPerMessageDeflateCodec.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketPerMessageDeflateCodec.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketPerMessageDeflateOptions.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketPerMessageDeflateOptions.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketPerMessageDeflateOptions.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketPerMessageDeflateOptions.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketProxyServer.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketProxyServer.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketProxyServer.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketProxyServer.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketServer.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketServer.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketServer.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketServer.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketTransport.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketTransport.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXWebSocketTransport.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXWebSocketTransport.cpp.obj"
+},
+{
+  "directory": "C:/src/APCpp/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIXWEBSOCKET_USE_MBED_TLS -DIXWEBSOCKET_USE_MBED_TLS_MIN_VERSION_3 -DIXWEBSOCKET_USE_TLS -DIXWEBSOCKET_USE_ZLIB -D_CRT_SECURE_NO_WARNINGS -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\include -IC:\\src\\APCpp\\IXWebSocket -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\everest\\include -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\mbedtls-3.6.4\\3rdparty\\p256-m\\p256-m -IC:\\src\\APCpp\\out\\build\\x64-Debug\\_deps\\zlib-build -IC:\\src\\APCpp\\zlib /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /FoIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketMbedTLS.cpp.obj /FdIXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket.pdb /FS -c C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketMbedTLS.cpp",
+  "file": "C:\\src\\APCpp\\IXWebSocket\\ixwebsocket\\IXSocketMbedTLS.cpp",
+  "output": "IXWebSocket\\CMakeFiles\\ixwebsocket.dir\\ixwebsocket\\IXSocketMbedTLS.cpp.obj"
+}
+]

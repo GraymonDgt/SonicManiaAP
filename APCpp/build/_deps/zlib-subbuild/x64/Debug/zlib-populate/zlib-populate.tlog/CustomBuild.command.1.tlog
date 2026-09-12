@@ -1,0 +1,144 @@
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/tmp/zlib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-DOWNLOAD.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\src\APCpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-BUILD.RULE
+setlocal
+cd C:\src\APCpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-INSTALL.RULE
+setlocal
+cd C:\src\APCpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\F6D48D9125166BE2CE1A2ED5EEAC5FBA\ZLIB-POPULATE-TEST.RULE
+setlocal
+cd C:\src\APCpp\build\_deps\zlib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\6E2F3D9B4B9AA7AD8624E5C6C2C5E25F\ZLIB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/Debug/zlib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/src/APCpp/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/Debug/zlib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKEFILES\2BDCD7522C522763C723B0B4FD1025EF\ZLIB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\APCPP\BUILD\_DEPS\ZLIB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/APCpp/build/_deps/zlib-subbuild -BC:/src/APCpp/build/_deps/zlib-subbuild --check-stamp-file C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

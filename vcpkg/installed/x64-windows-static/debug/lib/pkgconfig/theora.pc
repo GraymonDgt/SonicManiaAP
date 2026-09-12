@@ -1,0 +1,15 @@
+prefix=${pcfiledir}/../..
+# theora installed pkg-config file
+
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/../include
+
+Name: theora
+Description: Theora video codec
+Version: 1.2.0
+Conflicts:
+
+Libs: "-L${libdir}" -ltheora
+Requires: ogg >= 1.3.4
+Cflags: "-I${includedir}"

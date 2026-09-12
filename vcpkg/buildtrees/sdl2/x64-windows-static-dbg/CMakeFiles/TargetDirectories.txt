@@ -1,0 +1,9 @@
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/sdl_headers_copy.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/SDL2main.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/SDL2-static.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/uninstall.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/edit_cache.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/rebuild_cache.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/list_install_components.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/install.dir
+C:/src/vcpkg/buildtrees/sdl2/x64-windows-static-dbg/CMakeFiles/install/local.dir

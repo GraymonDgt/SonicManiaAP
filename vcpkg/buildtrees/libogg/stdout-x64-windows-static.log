@@ -1,0 +1,14 @@
+Downloading https://github.com/xiph/ogg/archive/v1.3.6.tar.gz -> xiph-ogg-v1.3.6.tar.gz
+Successfully downloaded xiph-ogg-v1.3.6.tar.gz
+-- Extracting source C:/src/vcpkg/downloads/xiph-ogg-v1.3.6.tar.gz
+-- Using source at C:/src/vcpkg/buildtrees/libogg/src/v1.3.6-4ad11a7327.clean
+-- Configuring x64-windows-static
+-- Building x64-windows-static-dbg
+-- Building x64-windows-static-rel
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/pkgconfig/ogg.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at C:/src/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/src/vcpkg/packages/libogg_x64-windows-static/debug/lib/pkgconfig/ogg.pc
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/share/libogg/copyright
+-- Performing post-build validation

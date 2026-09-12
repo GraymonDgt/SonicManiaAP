@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\src\\Sonic-Mania-Decompilation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\LevelSelect.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Menu\\LevelSelect.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\ActClear.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Global\\ActClear.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\Player.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Global\\Player.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\PauseMenu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Global\\PauseMenu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\ERZ\\ERZOutro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\ERZ\\ERZOutro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\Zone.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Global\\Zone.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\UFO\\SpecialClear.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\UFO\\SpecialClear.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\StarPost.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Global\\StarPost.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\SpecialRing.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Global\\SpecialRing.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\ERZ\\ERZKing.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\ERZ\\ERZKing.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Helpers\\GameProgress.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Helpers\\GameProgress.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\UIButton.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Menu\\UIButton.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\UISubHeading.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\Menu\\UISubHeading.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\TMZ\\TMZ2Outro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\Objects\\TMZ\\TMZ2Outro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\GameVariables.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E179BA4D-FEE4-49DC-B5A0-14A7AF1FBB06}|SonicMania\\SonicMania.vcxproj|solutionrelative:SonicMania\\GameVariables.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\ManiaAP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SonicMania\\ManiaAP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EA4550-5B90-55A7-6198-53E103024AC9}|..\\..\\Users\\graym\\AppData\\Roaming\\Microsoft\\VisualStudio\\17.0_4eef7d9b\\SingleFileISense\\_sfi_3472d6ab-7038-49b0-87ff-c929dfce1d37_.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\ManiaAP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18EA4550-5B90-55A7-6198-53E103024AC9}|..\\..\\Users\\graym\\AppData\\Roaming\\Microsoft\\VisualStudio\\17.0_4eef7d9b\\SingleFileISense\\_sfi_3472d6ab-7038-49b0-87ff-c929dfce1d37_.vcxproj|solutionrelative:SonicMania\\ManiaAP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18EA4550-5B90-55A7-6198-53E103024AC9}|..\\..\\Users\\graym\\AppData\\Roaming\\Microsoft\\VisualStudio\\17.0_4eef7d9b\\SingleFileISense\\_sfi_3472d6ab-7038-49b0-87ff-c929dfce1d37_.vcxproj|C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\APCpp\\Archipelago.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18EA4550-5B90-55A7-6198-53E103024AC9}|..\\..\\Users\\graym\\AppData\\Roaming\\Microsoft\\VisualStudio\\17.0_4eef7d9b\\SingleFileISense\\_sfi_3472d6ab-7038-49b0-87ff-c929dfce1d37_.vcxproj|solutionrelative:SonicMania\\APCpp\\Archipelago.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ERZOutro.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\ERZ\\ERZOutro.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\ERZ\\ERZOutro.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\ERZ\\ERZOutro.c",
+              "RelativeToolTip": "SonicMania\\Objects\\ERZ\\ERZOutro.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-12T13:10:08.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StarPost.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\StarPost.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Global\\StarPost.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\StarPost.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Global\\StarPost.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-11T23:48:05.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameProgress.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Helpers\\GameProgress.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Helpers\\GameProgress.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Helpers\\GameProgress.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Helpers\\GameProgress.c",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAAwJwBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-09T13:01:52.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpecialClear.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\UFO\\SpecialClear.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\UFO\\SpecialClear.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\UFO\\SpecialClear.c",
+              "RelativeToolTip": "SonicMania\\Objects\\UFO\\SpecialClear.c",
+              "ViewState": "AgIAAJkCAAAAAAAAAAAuwKoCAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-08T08:49:46.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ERZKing.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\ERZ\\ERZKing.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\ERZ\\ERZKing.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\ERZ\\ERZKing.c",
+              "RelativeToolTip": "SonicMania\\Objects\\ERZ\\ERZKing.c",
+              "ViewState": "AgIAANcBAAAAAAAAAAAAwOcBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-08T07:26:22.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpecialRing.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\SpecialRing.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Global\\SpecialRing.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\SpecialRing.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Global\\SpecialRing.c",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAQwBEBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-07T15:22:29.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Zone.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\Zone.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Global\\Zone.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\Zone.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Global\\Zone.c",
+              "ViewState": "AgIAABcDAAAAAAAAAAAAwCkDAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-07T12:20:40.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelSelect.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\LevelSelect.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Menu\\LevelSelect.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\LevelSelect.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Menu\\LevelSelect.c",
+              "ViewState": "AgIAALQCAAAAAAAAAAAqwM8CAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-04T15:52:52.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PauseMenu.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\PauseMenu.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Global\\PauseMenu.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\PauseMenu.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Global\\PauseMenu.c",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAawAICAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-08-30T00:41:05.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActClear.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\ActClear.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Global\\ActClear.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\ActClear.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Global\\ActClear.c",
+              "ViewState": "AgIAAAMEAAAAAAAAAAAuwBsEAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-04T14:08:45.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\Player.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Global\\Player.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Global\\Player.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Global\\Player.c",
+              "ViewState": "AgIAAA0QAAAAAAAAAAAuwB4QAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-08-26T23:09:25.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Game.c",
+              "RelativeDocumentMoniker": "SonicMania\\Game.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Game.c",
+              "RelativeToolTip": "SonicMania\\Game.c",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAqwKEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-08-26T23:46:30.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UIButton.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\UIButton.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Menu\\UIButton.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\UIButton.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Menu\\UIButton.c",
+              "ViewState": "AgIAALECAAAAAAAAAAAqwMMCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-07T12:21:26.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UISubHeading.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\UISubHeading.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\Menu\\UISubHeading.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\Menu\\UISubHeading.c",
+              "RelativeToolTip": "SonicMania\\Objects\\Menu\\UISubHeading.c",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAswJUBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-07T12:33:12.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TMZ2Outro.c",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\TMZ\\TMZ2Outro.c",
+              "RelativeDocumentMoniker": "SonicMania\\Objects\\TMZ\\TMZ2Outro.c",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\Objects\\TMZ\\TMZ2Outro.c",
+              "RelativeToolTip": "SonicMania\\Objects\\TMZ\\TMZ2Outro.c",
+              "ViewState": "AgIAAOMBAAAAAAAAAAAlwLICAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-08T07:13:07.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameVariables.h",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\GameVariables.h",
+              "RelativeDocumentMoniker": "SonicMania\\GameVariables.h",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\GameVariables.h",
+              "RelativeToolTip": "SonicMania\\GameVariables.h",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAMYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-08T10:01:02.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManiaAP.h",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\ManiaAP.h",
+              "RelativeDocumentMoniker": "SonicMania\\ManiaAP.h",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\ManiaAP.h",
+              "RelativeToolTip": "SonicMania\\ManiaAP.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-08T10:09:32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManiaAP.cpp",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\ManiaAP.cpp",
+              "RelativeDocumentMoniker": "SonicMania\\ManiaAP.cpp",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\ManiaAP.cpp",
+              "RelativeToolTip": "SonicMania\\ManiaAP.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-04T12:35:27.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Archipelago.cpp",
+              "DocumentMoniker": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\APCpp\\Archipelago.cpp",
+              "RelativeDocumentMoniker": "SonicMania\\APCpp\\Archipelago.cpp",
+              "ToolTip": "C:\\src\\Sonic-Mania-Decompilation\\SonicMania\\APCpp\\Archipelago.cpp",
+              "RelativeToolTip": "SonicMania\\APCpp\\Archipelago.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-01T06:26:08.271Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

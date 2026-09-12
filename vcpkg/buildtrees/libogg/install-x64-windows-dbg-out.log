@@ -1,0 +1,19 @@
+Change Dir: 'C:/src/vcpkg/buildtrees/libogg/x64-windows-dbg'
+
+Run Build Command(s): C:\src\vcpkg\downloads\tools\ninja-1.13.2-windows\ninja.exe -v -v -j9 install
+[1/4] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"   -Dogg_EXPORTS -IC:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\include -IC:\src\vcpkg\buildtrees\libogg\x64-windows-dbg\include /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\ogg.dir\src\bitwise.c.obj /FdCMakeFiles\ogg.dir\ /FS -c C:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\src\bitwise.c
+[2/4] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"   -Dogg_EXPORTS -IC:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\include -IC:\src\vcpkg\buildtrees\libogg\x64-windows-dbg\include /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\ogg.dir\src\framing.c.obj /FdCMakeFiles\ogg.dir\ /FS -c C:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\src\framing.c
+[3/4] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_dll --msvc-ver=1944 --intdir=CMakeFiles\ogg.dir --rc="C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" --mt="C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\mt.exe" --manifests  -- "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe"  CMakeFiles\ogg.dir\src\bitwise.c.obj CMakeFiles\ogg.dir\src\framing.c.obj  /out:ogg.dll /implib:ogg.lib /pdb:ogg.pdb /dll /version:0.8 /machine:x64 /nologo    /debug /INCREMENTAL /DEF:C:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\win32\ogg.def  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+[3/4] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\src\vcpkg\buildtrees\libogg\x64-windows-dbg && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Debug"
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/lib/ogg.lib
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/bin/ogg.dll
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/include/ogg/config_types.h
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/include/ogg/ogg.h
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/include/ogg/os_types.h
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/lib/cmake/Ogg/OggTargets.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/lib/cmake/Ogg/OggTargets-debug.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/lib/cmake/Ogg/OggConfig.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/lib/cmake/Ogg/OggConfigVersion.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows/debug/lib/pkgconfig/ogg.pc
+

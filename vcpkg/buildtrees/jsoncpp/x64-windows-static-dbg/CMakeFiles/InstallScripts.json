@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/src/vcpkg/buildtrees/jsoncpp/x64-windows-static-dbg/cmake_install.cmake",
+		"C:/src/vcpkg/buildtrees/jsoncpp/x64-windows-static-dbg/src/cmake_install.cmake",
+		"C:/src/vcpkg/buildtrees/jsoncpp/x64-windows-static-dbg/src/lib_json/cmake_install.cmake",
+		"C:/src/vcpkg/buildtrees/jsoncpp/x64-windows-static-dbg/include/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

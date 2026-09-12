@@ -1,0 +1,13 @@
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/include/theora/codec.h
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/include/theora/theora.h
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/include/theora/theoradec.h
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/include/theora/theoraenc.h
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/unofficial-theora/unofficial-theora-config.cmake
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/theora.lib
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/theoraenc.lib
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/theoradec.lib
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/unofficial-theora/unofficial-theora-targets.cmake
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/unofficial-theora/unofficial-theora-targets-debug.cmake
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/pkgconfig/theora.pc
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/pkgconfig/theoradec.pc
+C:/src/vcpkg/packages/libtheora_x64-windows-static/debug/lib/pkgconfig/theoraenc.pc

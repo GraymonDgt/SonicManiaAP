@@ -1,0 +1,11 @@
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/theora-common.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/theora-enc.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/theora-dec.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/theora.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/theoraenc.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/theoradec.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/edit_cache.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/list_install_components.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/install.dir
+C:/src/vcpkg/buildtrees/libtheora/x64-windows-dbg/CMakeFiles/install/local.dir

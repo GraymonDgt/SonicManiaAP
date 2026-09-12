@@ -1,0 +1,18 @@
+Change Dir: 'C:/src/vcpkg/buildtrees/libogg/x64-windows-static-rel'
+
+Run Build Command(s): C:\src\vcpkg\downloads\tools\ninja-1.13.2-windows\ninja.exe -v -v -j9 install
+[1/4] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"    -IC:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\include -IC:\src\vcpkg\buildtrees\libogg\x64-windows-static-rel\include /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MT /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\ogg.dir\src\bitwise.c.obj /FdCMakeFiles\ogg.dir\ogg.pdb /FS -c C:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\src\bitwise.c
+[2/4] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"    -IC:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\include -IC:\src\vcpkg\buildtrees\libogg\x64-windows-static-rel\include /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MT /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\ogg.dir\src\framing.c.obj /FdCMakeFiles\ogg.dir\ogg.pdb /FS -c C:\src\vcpkg\buildtrees\libogg\src\v1.3.6-4ad11a7327.clean\src\framing.c
+[3/4] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\lib.exe"  /machine:x64 /nologo /out:ogg.lib CMakeFiles\ogg.dir\src\bitwise.c.obj CMakeFiles\ogg.dir\src\framing.c.obj && cd ."
+[3/4] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\src\vcpkg\buildtrees\libogg\x64-windows-static-rel && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/ogg.lib
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/include/ogg/config_types.h
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/include/ogg/ogg.h
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/include/ogg/os_types.h
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggTargets.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggTargets-release.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggConfig.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggConfigVersion.cmake
+-- Installing: C:/src/vcpkg/packages/libogg_x64-windows-static/lib/pkgconfig/ogg.pc
+

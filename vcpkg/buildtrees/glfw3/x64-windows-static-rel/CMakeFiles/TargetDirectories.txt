@@ -1,0 +1,13 @@
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/CMakeFiles/uninstall.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/CMakeFiles/edit_cache.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/CMakeFiles/rebuild_cache.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/CMakeFiles/list_install_components.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/CMakeFiles/install.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/CMakeFiles/install/local.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/glfw.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/update_mappings.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/edit_cache.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/rebuild_cache.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/list_install_components.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/install.dir
+C:/src/vcpkg/buildtrees/glfw3/x64-windows-static-rel/src/CMakeFiles/install/local.dir

@@ -1,0 +1,10 @@
+C:/src/vcpkg/packages/glew_x64-windows-static/lib/libglew32.lib
+C:/src/vcpkg/packages/glew_x64-windows-static/lib/pkgconfig/glew.pc
+C:/src/vcpkg/packages/glew_x64-windows-static/include/GL/wglew.h
+C:/src/vcpkg/packages/glew_x64-windows-static/include/GL/glew.h
+C:/src/vcpkg/packages/glew_x64-windows-static/include/GL/glxew.h
+C:/src/vcpkg/packages/glew_x64-windows-static/include/GL/eglew.h
+C:/src/vcpkg/packages/glew_x64-windows-static/lib/cmake/glew/glew-targets.cmake
+C:/src/vcpkg/packages/glew_x64-windows-static/lib/cmake/glew/glew-targets-release.cmake
+C:/src/vcpkg/packages/glew_x64-windows-static/lib/cmake/glew/glew-config.cmake
+C:/src/vcpkg/packages/glew_x64-windows-static/lib/cmake/glew/CopyImportedTargetProperties.cmake

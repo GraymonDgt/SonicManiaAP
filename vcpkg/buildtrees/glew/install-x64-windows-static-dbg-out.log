@@ -1,0 +1,19 @@
+Change Dir: 'C:/src/vcpkg/buildtrees/glew/x64-windows-static-dbg'
+
+Run Build Command(s): C:\src\vcpkg\downloads\tools\ninja-1.13.2-windows\ninja.exe -v -v -j9 install
+[1/4] C:/PROGRA~1/CMake/bin/cmcldeps.exe RC C:\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\glew.rc CMakeFiles\glew_s.dir\C_\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\glew.rc.res.d CMakeFiles\glew_s.dir\C_\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\glew.rc.res "Note: including file: " "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe" "C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" -DGLEW_NO_GLU -DGLEW_STATIC -DVC_EXTRALEAN -I C:\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\cmake\..\..\include /c65001 /DWIN32 -D_DEBUG /fo CMakeFiles\glew_s.dir\C_\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\glew.rc.res C:\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\glew.rc
+[2/4] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"   -DGLEW_NO_GLU -DGLEW_STATIC -DVC_EXTRALEAN -IC:\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\cmake\..\..\include /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MTd /Z7 /Ob0 /Od   -MTd -GS- /showIncludes /FoCMakeFiles\glew_s.dir\C_\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\src\glew.c.obj /FdCMakeFiles\glew_s.dir\glew_s.pdb /FS -c C:\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\src\glew.c
+[3/4] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\lib.exe"  /machine:x64 /nologo /out:lib\libglew32d.lib CMakeFiles\glew_s.dir\C_\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\src\glew.c.obj CMakeFiles\glew_s.dir\C_\src\vcpkg\buildtrees\glew\src\glew-8cf78e348c.clean\build\glew.rc.res && cd ."
+[3/4] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\src\vcpkg\buildtrees\glew\x64-windows-static-dbg && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Debug"
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/lib/libglew32d.lib
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/lib/pkgconfig/glew.pc
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/include/GL/wglew.h
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/include/GL/glew.h
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/include/GL/glxew.h
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/include/GL/eglew.h
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/lib/cmake/glew/glew-targets.cmake
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/lib/cmake/glew/glew-targets-debug.cmake
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/lib/cmake/glew/glew-config.cmake
+-- Installing: C:/src/vcpkg/packages/glew_x64-windows-static/debug/lib/cmake/glew/CopyImportedTargetProperties.cmake
+
