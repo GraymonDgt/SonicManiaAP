@@ -9,3 +9,5 @@ Copy Data.rsdk from the root folder of your legally obtained Sonic Mania Plus an
 Edit connectioninfo.txt with the server name/port, slot name and password on separate lines, in that order.
 
 Launch RSDKv5U.exe to connect and run the game
+
+Play the game by selecting no save in mania mode
