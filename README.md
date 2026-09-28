@@ -10,7 +10,7 @@ Edit connectioninfo.txt with the server name/port, slot name and password on sep
 
 Launch RSDKv5U.exe to connect and run the game
 
-Play the game by selecting no save in mania mode
+Play the game by selecting a save in mania mode
 
 (playing a sound in the sound test determines which special stage you go to)
 
