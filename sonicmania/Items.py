@@ -22,7 +22,12 @@ generic_item_data_table: dict[str, SonicManiaItemData] = {
 "Blue Sphere Set 3": SonicManiaItemData(143),
 "Blue Sphere Set 4": SonicManiaItemData(144),
 
+
+
 #mode / ability unlocks ie mean bean, da garden, etc
+#no time limit
+#& knuckles
+
 "Shield": SonicManiaItemData(100, ItemClassification.filler),
 "10 Rings": SonicManiaItemData(101, ItemClassification.filler),
 "Hyper Ring": SonicManiaItemData(102, ItemClassification.filler),
@@ -33,6 +38,9 @@ generic_item_data_table: dict[str, SonicManiaItemData] = {
 }
 traps_item_data_table:dict[str, SonicManiaItemData] = {
 "Placebo Trap": SonicManiaItemData(120, ItemClassification.trap),#apply a bunch of minor status effects
+"Spike Bug": SonicManiaItemData(121, ItemClassification.trap),
+"Size Laser": SonicManiaItemData(122, ItemClassification.trap),
+"Ground Speed Cap": SonicManiaItemData(123, ItemClassification.trap),
 }
 
 character_item_data_table: dict[str, SonicManiaItemData] = {
