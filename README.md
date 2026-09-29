@@ -15,4 +15,6 @@ Play the game by selecting a save in mania mode
 (playing a sound in the sound test determines which special stage you go to)
 
 ## AI Usage Disclosure
-AI was used to help get things set up in the client, including some cmake stuff and debugging a bunch of dependencies, but has been rarely used after setup was done. The apworld side has no AI.
+AI was used to help get things set up in the client, including some cmake stuff and debugging a bunch of dependencies, but has been rarely used after setup was done.
+The main example being: Asking an LLM how to fix an error and implementing its solution if it works.
+The apworld side has no AI.
