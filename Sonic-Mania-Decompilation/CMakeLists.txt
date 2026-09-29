@@ -102,6 +102,8 @@ else()
         GAME_VERSION=${GAME_VERSION}
     )
 endif()
+set(USE_TLS ON CACHE BOOL "Enable TLS support" FORCE)
+set(USE_OPEN_SSL ON CACHE BOOL "Use OpenSSL for TLS" FORCE)
 add_library(APCpp STATIC SonicMania/APCpp/Archipelago.cpp SonicMania/APCpp/Archipelago_DataStorageSim.cpp SonicMania/APCpp/Archipelago_Gifting.cpp)
 find_package(jsoncpp CONFIG REQUIRED)
 target_link_libraries(APCpp PRIVATE JsonCpp::JsonCpp)
