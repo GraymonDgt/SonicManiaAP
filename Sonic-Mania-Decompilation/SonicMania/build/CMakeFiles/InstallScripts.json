@@ -1,0 +1,22 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/src/APCpp/build/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/framework/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/include/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/3rdparty/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/3rdparty/everest/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/3rdparty/p256-m/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/library/cmake_install.cmake",
+		"C:/src/APCpp/build/mbedtls_bin/pkgconfig/cmake_install.cmake",
+		"C:/src/APCpp/build/_deps/zlib-build/cmake_install.cmake",
+		"C:/src/APCpp/build/_deps/zlib-build/test/cmake_install.cmake",
+		"C:/src/APCpp/build/IXWebSocket/cmake_install.cmake",
+		"C:/src/APCpp/build/jsoncpp/cmake_install.cmake",
+		"C:/src/APCpp/build/jsoncpp/src/cmake_install.cmake",
+		"C:/src/APCpp/build/jsoncpp/src/lib_json/cmake_install.cmake",
+		"C:/src/APCpp/build/jsoncpp/include/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

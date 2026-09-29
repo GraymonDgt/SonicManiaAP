@@ -1,0 +1,157 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"zlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 300,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/zlib-build/zsd.lib"
+			],
+			"targetId" : "zlibstatic::@c9556b0b6bf47963f9da",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zlib",
+			"exportName" : "zlibStaticExport",
+			"exportTargets" : 
+			[
+				{
+					"id" : "zlibstatic::@c9556b0b6bf47963f9da",
+					"index" : 13
+				}
+			],
+			"paths" : 
+			[
+				"_deps/zlib-build/CMakeFiles/Export/93f1ef598f1f2f8b07b376ab081bbce6/ZLIB-static.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zlib",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/zlib-build/ZLIBConfig.cmake",
+				"out/build/x64-Debug/_deps/zlib-build/ZLIBConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/zlib-build/zconf.h",
+				"zlib/zlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Docs",
+			"destination" : "share/man/man3",
+			"paths" : 
+			[
+				"zlib/zlib.3"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Docs",
+			"destination" : "share/doc/zlib/zlib",
+			"paths" : 
+			[
+				"zlib/LICENSE",
+				"zlib/doc/algorithm.txt",
+				"zlib/doc/crc-doc.1.0.pdf",
+				"zlib/doc/rfc1950.txt",
+				"zlib/doc/rfc1951.txt",
+				"zlib/doc/rfc1952.txt",
+				"zlib/doc/txtvsbin.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Development",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/zlib-build/zlib.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/zlib-build",
+		"source" : "zlib"
+	}
+}

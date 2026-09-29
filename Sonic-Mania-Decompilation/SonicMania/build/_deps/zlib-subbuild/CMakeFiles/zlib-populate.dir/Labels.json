@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/2bdcd7522c522763c723b0b4fd1025ef/zlib-populate.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/6e2f3d9b4b9aa7ad8624e5c6c2c5e25f/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-build.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-download.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-install.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-test.rule"
+		},
+		{
+			"file" : "C:/src/APCpp/build/_deps/zlib-subbuild/CMakeFiles/f6d48d9125166be2ce1a2ed5eeac5fba/zlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}

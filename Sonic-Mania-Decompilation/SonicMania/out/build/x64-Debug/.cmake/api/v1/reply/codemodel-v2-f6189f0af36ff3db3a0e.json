@@ -1,0 +1,473 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bd7e180149a793632000.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "mbedtls_bin",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mbedtls_bin-Debug-1d083c16a047a962b7d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "mbedtls_bin/framework",
+					"jsonFile" : "directory-mbedtls_bin.framework-Debug-23315b039ec88847049b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/framework"
+				},
+				{
+					"build" : "mbedtls_bin/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mbedtls_bin.include-Debug-97de2ce11eee1a4fa3fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/include"
+				},
+				{
+					"build" : "mbedtls_bin/3rdparty",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mbedtls_bin.3rdparty-Debug-123367d54a65c4535ac4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/3rdparty"
+				},
+				{
+					"build" : "mbedtls_bin/3rdparty/everest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mbedtls_bin.3rdparty.everest-Debug-8116d573df4de9afbefd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/3rdparty/everest",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "mbedtls_bin/3rdparty/p256-m",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mbedtls_bin.3rdparty.p256-m-Debug-79bd35319eb59e3baf23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/3rdparty/p256-m",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "mbedtls_bin/library",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mbedtls_bin.library-Debug-a739bba4a7bfd5ccd64c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/library",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "mbedtls_bin/pkgconfig",
+					"jsonFile" : "directory-mbedtls_bin.pkgconfig-Debug-52b0bd6cc01445837472.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/mbedtls-3.6.4/pkgconfig"
+				},
+				{
+					"build" : "_deps/zlib-build",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zlib-build-Debug-190d384a4a0b6ab4cc00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "zlib",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/zlib-build/test",
+					"jsonFile" : "directory-_deps.zlib-build.test-Debug-53c0ceb1b407c3a0ca0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 2,
+					"source" : "zlib/test",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "IXWebSocket",
+					"jsonFile" : "directory-IXWebSocket-Debug-a2c0b5050e1112cbc74b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "IXWebSocket",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "jsoncpp",
+					"childIndexes" : 
+					[
+						13,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp-Debug-94c99f7d41f07a8e4883.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "jsoncpp"
+				},
+				{
+					"build" : "jsoncpp/src",
+					"childIndexes" : 
+					[
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp.src-Debug-e059d724b7cfe1210b19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "jsoncpp/src"
+				},
+				{
+					"build" : "jsoncpp/src/lib_json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp.src.lib_json-Debug-4088ef82cbb54dceb0c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 4,
+					"source" : "jsoncpp/src/lib_json",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "jsoncpp/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsoncpp.include-Debug-03e59b5850de250ca9a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "jsoncpp/include"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "APCpp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "Mbed TLS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10
+					],
+					"name" : "zlib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "ixwebsocket",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "jsoncpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "APCpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-APCpp-Debug-b34bdaf90e60fbd0875c.json",
+					"name" : "APCpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "apidoc::@b2be7d6b0473cb3e8d60",
+					"jsonFile" : "target-apidoc-Debug-643f09d7527f9ce357bf.json",
+					"name" : "apidoc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "everest::@f6fca4e378fcd7631233",
+					"jsonFile" : "target-everest-Debug-0809e900091286d18cae.json",
+					"name" : "everest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ixwebsocket::@887a60f1cbb38384aa9b",
+					"jsonFile" : "target-ixwebsocket-Debug-e73e40ff368e121a79d4.json",
+					"name" : "ixwebsocket",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "jsoncpp_object::@a9cdb551c294815260e6",
+					"jsonFile" : "target-jsoncpp_object-Debug-ca9ffb30406c9aa4b397.json",
+					"name" : "jsoncpp_object",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "jsoncpp_static::@a9cdb551c294815260e6",
+					"jsonFile" : "target-jsoncpp_static-Debug-27def9dfcf79a7888ca9.json",
+					"name" : "jsoncpp_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lib::@7d723c1208cb0d8dc644",
+					"jsonFile" : "target-lib-Debug-5bec2bdcd47b938c3d34.json",
+					"name" : "lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mbedcrypto::@7d723c1208cb0d8dc644",
+					"jsonFile" : "target-mbedcrypto-Debug-a8bc15c48d93044b98d8.json",
+					"name" : "mbedcrypto",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mbedtls::@7d723c1208cb0d8dc644",
+					"jsonFile" : "target-mbedtls-Debug-ea771f7b16205e7ddc3c.json",
+					"name" : "mbedtls",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mbedx509::@7d723c1208cb0d8dc644",
+					"jsonFile" : "target-mbedx509-Debug-ac148a77731153214ee8.json",
+					"name" : "mbedx509",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "p256m::@6f80f27d62f8645a5e9c",
+					"jsonFile" : "target-p256m-Debug-31bb41ea2f179b62779c.json",
+					"name" : "p256m",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "static_minigzip::@3ca06edb224f0eb84acd",
+					"jsonFile" : "target-static_minigzip-Debug-d23502a1d68233e4eb1a.json",
+					"name" : "static_minigzip",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "zlib_static_example::@3ca06edb224f0eb84acd",
+					"jsonFile" : "target-zlib_static_example-Debug-3d580f37e3de68c6bee2.json",
+					"name" : "zlib_static_example",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "zlibstatic::@c9556b0b6bf47963f9da",
+					"jsonFile" : "target-zlibstatic-Debug-f91922c62560eb460dd5.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/src/APCpp/out/build/x64-Debug",
+		"source" : "C:/src/APCpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

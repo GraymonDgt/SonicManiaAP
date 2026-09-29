@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake
+C:/src/APCpp/jsoncpp/CMakeLists.txt
+C:/src/APCpp/jsoncpp/cmake/JoinPaths.cmake
+C:/src/APCpp/jsoncpp/include/PreventInBuildInstalls.cmake
+C:/src/APCpp/jsoncpp/include/PreventInSourceBuilds.cmake
+C:/src/APCpp/jsoncpp/jsoncppConfig.cmake.in
+C:/src/APCpp/jsoncpp/pkg-config/jsoncpp.pc.in
+C:/src/APCpp/jsoncpp/version.in

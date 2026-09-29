@@ -1,0 +1,15 @@
+C:\src\APCpp\zlib\adler32.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\adler32.obj
+C:\src\APCpp\zlib\compress.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\compress.obj
+C:\src\APCpp\zlib\crc32.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\crc32.obj
+C:\src\APCpp\zlib\deflate.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\deflate.obj
+C:\src\APCpp\zlib\gzclose.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\gzclose.obj
+C:\src\APCpp\zlib\gzlib.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\gzlib.obj
+C:\src\APCpp\zlib\gzread.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\gzread.obj
+C:\src\APCpp\zlib\gzwrite.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\gzwrite.obj
+C:\src\APCpp\zlib\inflate.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\inflate.obj
+C:\src\APCpp\zlib\infback.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\infback.obj
+C:\src\APCpp\zlib\inftrees.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\inftrees.obj
+C:\src\APCpp\zlib\inffast.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\inffast.obj
+C:\src\APCpp\zlib\trees.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\trees.obj
+C:\src\APCpp\zlib\uncompr.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\uncompr.obj
+C:\src\APCpp\zlib\zutil.c;C:\src\APCpp\build\_deps\zlib-build\zlibstatic.dir\Debug\zutil.obj
