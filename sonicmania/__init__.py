@@ -3,7 +3,7 @@ import os
 import json
 from .Items import (item_table, item_data_table, generic_item_data_table, zone_item_data_table, character_item_data_table, SonicManiaItem)
 
-from .Locations import location_table, SonicManiaLocation
+from .Locations import location_table, SonicManiaLocation, ghz_table,cpz_table,spz_table,fbz_table,pgz_table,ssz_table,hcz_table,msz_table,ooz_table,lrz_table,mmz_table,tmz_table,special_stage_table
 from .Options import mania_options_groups, SonicManiaOptions
 from .Rules import set_rules
 from .Regions import create_regions
@@ -39,6 +39,28 @@ class SonicManiaWorld(World):
 
     item_name_to_id = item_table
     location_name_to_id = location_table
+
+
+    item_name_groups = {
+        "Zone":zone_item_data_table,
+        "Character":character_item_data_table
+    }
+
+    location_name_groups = {
+        "Green Hill Zone":ghz_table,
+        "Chemical Plant Zone":cpz_table,
+        "Studiopolis Zone":spz_table,
+        "Flying Battery Zone":fbz_table,
+        "Press Garden Zone":pgz_table,
+        "Stardust Speedway Zone":ssz_table,
+        "Hydrocity Zone":hcz_table,
+        "Mirage Saloon Zone":msz_table,
+        "Oil Ocean Zone":ooz_table,
+        "Lava Reef Zone":lrz_table,
+        "Metallic Madness Zone":mmz_table,
+        "Titanic Monarch Zone":tmz_table
+
+    }
 
     required_client_version = (0, 3, 5)
 
@@ -91,8 +113,7 @@ class SonicManiaWorld(World):
 "Stardust Speedway Zone (Act 1)","Stardust Speedway Zone (Act 2)",
 "Hydrocity Zone (Act 1)","Hydrocity Zone (Act 2)",
 "Mirage Saloon Zone (Act 1)","Mirage Saloon Zone (Act 2)",
-"Oil Ocean Zone (Act 1)","Oil Ocean Zone (Act 2)",
-"Lava Reef Zone (Act 1)","Lava Reef Zone (Act 2)",
+"Oil Ocean Zone (Act 1)","Oil Ocean Zone (Act 2)","Lava Reef Zone (Act 2)",
 "Metallic Madness Zone (Act 1)","Metallic Madness Zone (Act 2)",
 "Titanic Monarch Zone (Act 1)"]
 
@@ -142,10 +163,32 @@ class SonicManiaWorld(World):
         #self.multiworld.itempool += [self.create_item("Progressive Shop")]
         #slots_to_fill -= 3
 
-        trap_slots = slots_to_fill*(self.options.trap_percent/100)
-        for i in range(int(trap_slots)):
-            self.multiworld.itempool += [self.create_item("Placebo Trap")]
-            slots_to_fill -= 1
+
+        skip_traps = True
+        for trap_weight in self.options.trap_weights:#add placebo traps if all trap weights are 0
+            if self.options.trap_weights[trap_weight] != 0:
+                skip_traps = False
+                break
+        if skip_traps:
+            trap_slots = int(slots_to_fill * self.options.trap_percent / 100)
+            for i in range(trap_slots):
+                self.multiworld.itempool += [self.create_item("Placebo Trap")]
+                slots_to_fill -= 1
+
+
+
+
+
+        if slots_to_fill > 0 and skip_traps == False:
+            trap_slots = int(slots_to_fill * self.options.trap_percent / 100)
+            total_trap_weights = 0
+            for trap_weight in self.options.trap_weights:
+                total_trap_weights += self.options.trap_weights[trap_weight]
+            ratio = trap_slots / total_trap_weights
+            for trap in self.options.trap_weights:
+                for i in range(int(ratio * self.options.trap_weights[trap])):
+                    self.multiworld.itempool += [self.create_item(trap)]
+                    slots_to_fill -= 1
 
         if slots_to_fill > 0:
             filler_slots = slots_to_fill
@@ -175,7 +218,7 @@ class SonicManiaWorld(World):
     def fill_slot_data(self):
         return {
             "RingLink": self.options.ring_link.value,
-            "DeathLink": self.options.death_link.value,
+            #"DeathLink": self.options.death_link.value,
             "CompletionType": self.options.completion_type.value,
         }
 
