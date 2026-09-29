@@ -16,17 +16,18 @@ class BlueSpheres(Choice):
     display_name = "Blue Sphere Toggle"
 
 class EncoreMode(Toggle):
-    """placeholder"""
+    """placeholder, nonfunctional"""
     display_name = "Encore Mode"
 
 class CompletionType(Choice):
     """Set goal for Victory Condition
     CURRENTLY NONFUNCTIONAL (only good ending works)
     Bad Ending - Beat Titanic Monarch Act 2
-    Good Ending - Beat Titanic Monarch Act 2 with all Chaos Emeralds"""
+    Good Ending - Beat Egg Reverie Zone with all Chaos Emeralds"""
     display_name = "Completion Goal"
     option_Bad_Ending = 0
     option_Good_Ending = 1
+    default = 1
 
 class FillerWeights(OptionCounter):
     """
@@ -48,7 +49,9 @@ class TrapWeights(OptionCounter):
     Determines the ratio of each trap
     """
     default = {
-        "Placebo Trap": 4
+        "Spike Bug": 8,
+        "Size Laser": 8,
+        "Ground Speed Cap":8
     }
     display_name = "Trap Weights"
 
@@ -61,7 +64,7 @@ class TrapPercentage(Range):
 
 
 class RingLink(Choice):
-    """Enable Ringlink (share rings with other games)"""
+    """Enable Ringlink (share rings with other games) NONFUNCTIONAL"""
     option_off = 0
     option_on = 1
     display_name = "Ring Link"
@@ -92,5 +95,5 @@ class SonicManiaOptions(PerGameCommonOptions):
     trap_percent: TrapPercentage
     completion_type: CompletionType
     ring_link: RingLink
-    death_link: DeathLink
+    #death_link: DeathLink
 
