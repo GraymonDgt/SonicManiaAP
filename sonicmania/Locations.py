@@ -4,34 +4,137 @@ class SonicManiaLocation(Location):
     game: str = "Sonic Mania"
 
 #Bob-omb Battlefield
-
-zone_clear_table = {
+ghz_table = {
     "Green Hill (Act 1) Clear": 1,
     "Green Hill (Act 2) Clear": 2,
+
+    "Green Hill (Act 1) Giant Ring 1 - Knuckles Path": 80,
+    "Green Hill (Act 1) Giant Ring 2 - Lower Path Waterfall": 81,
+    "Green Hill (Act 1) Giant Ring 3 - Main Path": 82,
+    "Green Hill (Act 2) Giant Ring 1 - Near First Zipline Chain": 83,
+    "Green Hill (Act 2) Giant Ring 2 - Bottom Path Fake Wall Behind Monitor": 84,
+    "Green Hill (Act 2) Giant Ring 3 - Waterfall Near Boss": 85,
+}
+cpz_table = {
     "Chemical Plant (Act 1) Clear": 3,
     "Chemical Plant (Act 2) Clear": 4,
+
+    "Chemical Plant (Act 1) Giant Ring 1 - Bottom Path Underwater Wall": 86,
+    "Chemical Plant (Act 1) Giant Ring 2 - Upper Path Near Yellow Springs": 87,
+    "Chemical Plant (Act 1) Giant Ring 3 - Upper Path After Large Ramp": 88,
+    "Chemical Plant (Act 1) Giant Ring 4 - Vertical Moving Blocks Bottom": 89,
+    "Chemical Plant (Act 2) Giant Ring 1 - Left After First Downwards Launch": 90,
+    "Chemical Plant (Act 2) Giant Ring 2 - Long Purple Pad Fake Wall": 91,
+    "Chemical Plant (Act 2) Giant Ring 3 - Upper Path Moving Blocks": 92,
+}
+spz_table = {
     "Studiopolis (Act 1) Clear": 5,
     "Studiopolis (Act 2) Clear": 6,
+
+    "Studiopolis (Act 1) Giant Ring 1 - Backwards Ramp Near Start": 93,
+    "Studiopolis (Act 1) Giant Ring 2 - Top Path Fake Wall": 94,
+    "Studiopolis (Act 1) Giant Ring 3 - Lower Path Window Break Into Ramp": 95,
+    "Studiopolis (Act 2) Giant Ring 1 - Top Path Applause Sign": 96,
+    "Studiopolis (Act 2) Giant Ring 2 - Platforms After Wire Launch": 97,
+    "Studiopolis (Act 2) Giant Ring 3 - Top Path Badnik Bounce Chain": 98,
+}
+fbz_table = {
     "Flying Battery (Act 1) Clear": 7,
     "Flying Battery (Act 2) Clear": 8,
+
+    "Flying Battery (Act 1) Giant Ring 1 - Ceiling Magnets After 3rd Checkpoint": 99,
+    "Flying Battery (Act 1) Giant Ring 2 - Room Before Boss Left Wall": 100,
+    "Flying Battery (Act 2) Giant Ring 1 - Bottom Path Near First Fans": 101,
+    "Flying Battery (Act 2) Giant Ring 2 - Outside Rising Chain Near Propellers": 102,
+    "Flying Battery (Act 2) Giant Ring 3 - Outside Chain After Wind Tunnel": 103,
+    "Flying Battery (Act 2) Giant Ring 4 - Magnets Above Inside Switch": 104,
+}
+pgz_table = {
     "Press Garden (Act 1) Clear": 9,
     "Press Garden (Act 2) Clear": 10,
+
+    "Press Garden (Act 1) Giant Ring 1 - Left After First Spinning Tube": 105,
+    "Press Garden (Act 1) Giant Ring 2 - Closed Gate Above Crusher": 106,
+    "Press Garden (Act 2) Giant Ring 1 - Under 1st Checkpoint": 107,
+    "Press Garden (Act 2) Giant Ring 2 - Top Path Behind Half Pipe Ice": 108,
+    "Press Garden (Act 2) Giant Ring 3 - Ice Slide Fake Wall After Loop": 109,
+}
+ssz_table = {
     "Stardust Speedway (Act 1) Clear": 11,
     "Stardust Speedway (Act 2) Clear": 12,
+
+    "Stardust Speedway (Act 1) Giant Ring 1 - Alt Upper Path Between Pillars": 110,
+    "Stardust Speedway (Act 1) Giant Ring 2 - Bottom Spin Tunnels Spring Room": 111,
+    "Stardust Speedway (Act 1) Giant Ring 3 - Upper Path Red Spring Near Vine": 112,
+    "Stardust Speedway (Act 2) Giant Ring 1 - Bottom Path Inside Near Start": 113,
+    "Stardust Speedway (Act 2) Giant Ring 2 - Bottom Path Small Inside Space": 114,
+    "Stardust Speedway (Act 2) Giant Ring 3 - Top Path Inside Ceiling Jump": 115,
+}
+hcz_table = {
     "Hydrocity (Act 1) Clear": 13,
     "Hydrocity (Act 2) Clear": 14,
+
+    "Hydrocity (Act 1) Giant Ring 1 - Upper Path Launch Near 1st Checkpoint": 116,
+    "Hydrocity (Act 1) Giant Ring 2 - Middle Path Fall Into Water": 117,
+    "Hydrocity (Act 1) Giant Ring 3 - Bottom Path Fake Wall Near Bubble Switch": 118,
+    "Hydrocity (Act 2) Giant Ring 1 - 1st Water Slide Drop Underwater": 119,
+    "Hydrocity (Act 2) Giant Ring 2 - Launch After Tallest Water Slide": 120,
+}
+msz_table = {
     "Mirage Saloon (Act 1 Normal) Clear": 15,
     "Mirage Saloon (Act 1 Knuckles) Clear": 16,
     "Mirage Saloon (Act 2) Clear": 17,
+
+    "Mirage Saloon (Act 1 Normal) Giant Ring - Inside Train Car": 121,
+    "Mirage Saloon (Act 1 Knuckles) Giant Ring 1 - Left Path Near Start": 122,
+    "Mirage Saloon (Act 1 Knuckles) Giant Ring 2 - Final Bumper Section Top Left": 123,
+    "Mirage Saloon (Act 1 Knuckles) Giant Ring 3 - Open Area Left Side": 124,
+    "Mirage Saloon (Act 2) Giant Ring 2 - Left Top Path Breaking Sand Loop": 125,
+    "Mirage Saloon (Act 2) Giant Ring 3 - Top Path Half Pipe Near Sprayer": 126,
+    "Mirage Saloon (Act 2) Giant Ring 1 - Push Barrel Into Water Sprayer": 127,
+}
+
+ooz_table = {
     "Oil Ocean (Act 1) Clear": 18,
     "Oil Ocean (Act 2) Clear": 19,
+
+    "Oil Ocean (Act 1) Giant Ring 1 - First Flame Shield Fans": 128,
+    "Oil Ocean (Act 1) Giant Ring 2 - Top Path Pipes": 129,
+    "Oil Ocean (Act 1) Giant Ring 3 - Middle Path Fake Wall Near Elevator": 130,
+    "Oil Ocean (Act 2) Giant Ring 1 - Under 1st Checkpoint": 131,
+    "Oil Ocean (Act 2) Giant Ring 2 - Fake Wall Above 2nd Checkpoint Area": 132,
+}
+lrz_table = {
     "Lava Reef (Act 1) Clear": 20,
     "Lava Reef (Act 2) Clear": 21,
+
+    "Lava Reef (Act 1) Giant Ring 1 - Behind First Spike Crusher": 133,
+    "Lava Reef (Act 1) Giant Ring 2 - Lower Path Spin Elevators": 134,
+    "Lava Reef (Act 2) Giant Ring 2 - Lower Path Crumbling Platforms": 135,
+    "Lava Reef (Act 2) Giant Ring 3 - Fake Wall Near Moving Platforms": 136,
+    "Lava Reef (Act 2) Giant Ring 4 - Bottom Path Iwamodoki Tunnel In Lava": 137,
+    "Lava Reef (Act 2) Giant Ring 5 - Fake Floor After Walker": 138,
+    "Lava Reef (Act 2) Giant Ring 1 - Knuckles Path": 139,
+}
+mmz_table = {
     "Metallic Madness (Act 1) Clear": 22,
     "Metallic Madness (Act 2) Clear": 23,
+
+    "Metallic Madness (Act 1) Giant Ring 1 - Bottom Path Above 1st Checkpoint": 140,
+    "Metallic Madness (Act 1) Giant Ring 2 - First Background Path End": 141,
+    "Metallic Madness (Act 1) Giant Ring 3 - Top Path Slopes Near End": 142,
+    "Metallic Madness (Act 2) Giant Ring 1 - Bottom Path Near 2nd Checkpoint": 143,
+    "Metallic Madness (Act 2) Giant Ring 2 - Hidden Spin Tunnel In Background": 144,
+}
+tmz_table = {
     "Titanic Monarch (Act 1) Clear": 24,
     "Titanic Monarch (Act 2) Clear": 25,
 
+    "Titanic Monarch (Act 1) Giant Ring 1 - Above 2nd Checkpoint": 145,
+    "Titanic Monarch (Act 1) Giant Ring 2 - Lightning Shield Near Orbs": 146,
+    "Titanic Monarch (Act 2) Giant Ring - Bottom Right Path Breakable Bumpers": 147,
+}
+special_stage_table = {
     "Special Stage 1 Clear": 26,
     "Special Stage 2 Clear": 27,
     "Special Stage 3 Clear": 28,
@@ -40,89 +143,7 @@ zone_clear_table = {
     "Special Stage 6 Clear": 31,
     "Special Stage 7 Clear": 32,
 }
-giant_ring_table = {
-    "Green Hill (Act 1) Giant Ring - Knuckles Path": 80,
-    "Green Hill (Act 1) Giant Ring - Lower Path Waterfall": 81,
-    "Green Hill (Act 1) Giant Ring - Main Path": 82,
-    "Green Hill (Act 2) Giant Ring - Near First Zipline Chain": 83,
-    "Green Hill (Act 2) Giant Ring - Bottom Path Wall Behind Monitor": 84,
-    "Green Hill (Act 2) Giant Ring - Waterfall Near Boss": 85,
 
-    "Chemical Plant (Act 1) Giant Ring - Bottom Path Underwater Wall": 86,
-    "Chemical Plant (Act 1) Giant Ring - Upper Path Near Yellow Springs": 87,
-    "Chemical Plant (Act 1) Giant Ring - Upper Path After Large Ramp": 88,
-    "Chemical Plant (Act 1) Giant Ring - Vertical Moving Blocks Bottom": 89,
-    "Chemical Plant (Act 2) Giant Ring - Left After First Downwards Launch": 90,
-    "Chemical Plant (Act 2) Giant Ring - Long Purple Pad Fake Wall": 91,
-    "Chemical Plant (Act 2) Giant Ring - Upper Path Moving Blocks": 92,
-
-    "Studiopolis (Act 1) Giant Ring - Backwards Ramp Near Start": 93,
-    "Studiopolis (Act 1) Giant Ring - Top Path Fake Wall": 94,
-    "Studiopolis (Act 1) Giant Ring - Lower Path Window Break Into Ramp": 95,
-    "Studiopolis (Act 2) Giant Ring - Top Path Applause Sign": 96,
-    "Studiopolis (Act 2) Giant Ring - Platforms After Wire Launch": 97,
-    "Studiopolis (Act 2) Giant Ring - Top Path Badnik Bounce Chain": 98,
-
-    "Flying Battery (Act 1) Giant Ring - 1": 99,
-    "Flying Battery (Act 1) Giant Ring - 2": 100,
-    "Flying Battery (Act 2) Giant Ring - 1": 101,
-    "Flying Battery (Act 2) Giant Ring - 2": 102,
-    "Flying Battery (Act 2) Giant Ring - 3": 103,
-    "Flying Battery (Act 2) Giant Ring - 4": 104,
-
-    "Press Garden (Act 1) Giant Ring - 1": 105,
-    "Press Garden (Act 1) Giant Ring - 2": 106,
-    "Press Garden (Act 2) Giant Ring - 1": 107,
-    "Press Garden (Act 2) Giant Ring - 2": 108,
-    "Press Garden (Act 2) Giant Ring - 3": 109,
-
-    "Stardust Speedway (Act 1) Giant Ring - 1": 110,
-    "Stardust Speedway (Act 1) Giant Ring - 2": 111,
-    "Stardust Speedway (Act 1) Giant Ring - 3": 112,
-    "Stardust Speedway (Act 2) Giant Ring - 1": 113,
-    "Stardust Speedway (Act 2) Giant Ring - 2": 114,
-    "Stardust Speedway (Act 2) Giant Ring - 3": 115,
-
-    "Hydrocity (Act 1) Giant Ring - 1": 116,
-    "Hydrocity (Act 1) Giant Ring - 2": 117,
-    "Hydrocity (Act 1) Giant Ring - 3": 118,
-    "Hydrocity (Act 2) Giant Ring - 1": 119,
-    "Hydrocity (Act 2) Giant Ring - 2": 120,
-
-    "Mirage Saloon (Act 1 Normal) Giant Ring - Inside Train Car": 121,
-    "Mirage Saloon (Act 1 Knuckles) Giant Ring - 1": 122,
-    "Mirage Saloon (Act 1 Knuckles) Giant Ring - 2": 123,
-    "Mirage Saloon (Act 1 Knuckles) Giant Ring - 3": 124,
-    "Mirage Saloon (Act 2) Giant Ring - 1": 125,
-    "Mirage Saloon (Act 2) Giant Ring - 2": 126,
-    "Mirage Saloon (Act 2) Giant Ring - 3": 127,
-
-    "Oil Ocean (Act 1) Giant Ring - 1": 128,
-    "Oil Ocean (Act 1) Giant Ring - 2": 129,
-    "Oil Ocean (Act 1) Giant Ring - 3": 130,
-    "Oil Ocean (Act 2) Giant Ring - 1": 131,
-    "Oil Ocean (Act 2) Giant Ring - 2": 132,
-
-    "Lava Reef (Act 1) Giant Ring - 1": 133,
-    "Lava Reef (Act 1) Giant Ring - 2": 134,
-    "Lava Reef (Act 2) Giant Ring - 1": 135,
-    "Lava Reef (Act 2) Giant Ring - 2": 136,
-    "Lava Reef (Act 2) Giant Ring - 3": 137,
-    "Lava Reef (Act 2) Giant Ring - 4": 138,
-    "Lava Reef (Act 2) Giant Ring - 5": 139,
-
-    "Metallic Madness (Act 1) Giant Ring - 1": 140,
-    "Metallic Madness (Act 1) Giant Ring - 2": 141,
-    "Metallic Madness (Act 1) Giant Ring - 3": 142,
-    "Metallic Madness (Act 2) Giant Ring - 1": 143,
-    "Metallic Madness (Act 2) Giant Ring - 2": 144,
-
-    "Titanic Monarch (Act 1) Giant Ring - 1": 145,
-    "Titanic Monarch (Act 1) Giant Ring - 2": 146,
-    "Titanic Monarch (Act 2) Giant Ring - 1": 147,
-
-
-}
 blue_sphere_table = {
 
 "Blue Sphere (Set 1) - Orange/Brown Clear": 201,
@@ -215,4 +236,4 @@ achievement_table = {
     "Achievement: Professional Hedgehog": 177,
 }
 
-location_table = {**zone_clear_table,**giant_ring_table,**blue_sphere_table, **achievement_table}
+location_table = {**ghz_table,**cpz_table,**spz_table,**fbz_table,**pgz_table,**ssz_table,**hcz_table,**msz_table,**ooz_table,**lrz_table,**mmz_table,**tmz_table,**special_stage_table,**blue_sphere_table, **achievement_table}
