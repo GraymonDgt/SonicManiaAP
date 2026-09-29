@@ -92,7 +92,7 @@ def set_rules(world, options: SonicManiaOptions, player: int, area_connections: 
              lambda state: state.has("Special Stage 7", player))
 
 
-    add_rule(world.get_location("Green Hill (Act 1) Giant Ring - Knuckles Path", player),
+    add_rule(world.get_location("Green Hill (Act 1) Giant Ring 1 - Knuckles Path", player),
              lambda state: state.has("Knuckles", player))
 
 
@@ -102,30 +102,23 @@ def set_rules(world, options: SonicManiaOptions, player: int, area_connections: 
              lambda state: state.has("Sonic", player) or state.has("Tails", player) or state.has("Mighty", player) or state.has("Ray", player))
     add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Clear", player),
              lambda state: state.has("Knuckles", player))
-    add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Giant Ring - 1", player),
+    add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Giant Ring 1 - Left Path Near Start", player),
              lambda state: state.has("Knuckles", player))
-    add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Giant Ring - 2", player),
+    add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Giant Ring 2 - Final Bumper Section Top Left", player),
              lambda state: state.has("Knuckles", player))
-    add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Giant Ring - 3", player),
-             lambda state: state.has("Knuckles", player))
-
-
-    add_rule(world.get_location("Lava Reef (Act 2) Giant Ring - 5", player),
+    add_rule(world.get_location("Mirage Saloon (Act 1 Knuckles) Giant Ring 3 - Open Area Left Side", player),
              lambda state: state.has("Knuckles", player))
 
 
+    add_rule(world.get_location("Lava Reef (Act 2) Giant Ring 1 - Knuckles Path", player),
+             lambda state: state.has("Knuckles", player))
+
+    add_rule(world.get_location("Titanic Monarch (Act 1) Giant Ring 2 - Lightning Shield Near Orbs", player),
+             lambda state: state.has("Sonic", player) or state.has("Tails", player) or state.has("Knuckles", player) or state.has("Ray", player))
 
 
-
-
-
-
-
-    #later levels need a 2nd combat turret for logic
-    #most levels require 2 weak combat turrets (pistol shrimp is strong enough for most levels)
-    #levels with a lot of clams should require a collection turret
     if options.completion_type == 0:
         world.completion_condition[player] = lambda state: state.can_reach_location("Titanic Monarch (Act 2) Clear", player)
     else:
-        world.completion_condition[player] = lambda state: state.can_reach_location("Titanic Monarch (Act 2) Clear", player) and state.count("Chaos Emerald",player) >6
+        world.completion_condition[player] = lambda state: state.count("Chaos Emerald",player) >6
 
