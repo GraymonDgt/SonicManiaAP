@@ -150,8 +150,13 @@ void CPZSetup_StageLoad(void)
         }
 
         if (isMainGameMode()) {
+<<<<<<< HEAD
             //if (CutsceneRules_IsAct1())
                 //Zone->stageFinishCallback = CPZSetup_StageFinish_EndAct1;
+=======
+            if (CutsceneRules_IsAct1())
+                Zone->stageFinishCallback = CPZSetup_StageFinish_EndAct1;
+>>>>>>> origin/main
         }
 
         RSDK.SetPaletteEntry(0, 0xFF, 0xF0F0F0);

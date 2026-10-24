@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  // ---------------------------------------------------------------------
+=======
+// ---------------------------------------------------------------------
+>>>>>>> origin/main
 // RSDK Project: Sonic Mania
 // Object Description: SpecialRing Object
 // Object Author: Christian Whitehead/Simon Thomley/Hunter Bridges
@@ -84,6 +88,7 @@ void SpecialRing_StageLoad(void)
 
     DEBUGMODE_ADD_OBJ(SpecialRing);
 
+<<<<<<< HEAD
 
     for (int i = 0; i < 150;i++) {
         globals->checkedLocations[i] = ManiaAP_checkedLocation(i);
@@ -240,6 +245,11 @@ void SpecialRing_StageLoad(void)
 
 
         if (ring->id <= 0 || globals->gameMode == MODE_TIMEATTACK || globals->gameMode == MODE_COMPETITION || globals->checkedLocations[ring->checkId]>0) {
+=======
+    foreach_all(SpecialRing, ring)
+    {
+        if (ring->id <= 0 || globals->gameMode == MODE_TIMEATTACK || globals->gameMode == MODE_COMPETITION) {
+>>>>>>> origin/main
             ring->enabled = false;
         }
         else {
@@ -344,10 +354,154 @@ void SpecialRing_State_Idle(void)
                     else {
                         Player_GiveRings(player, 50, true);
                     }
+<<<<<<< HEAD
                     ManiaAP_TestSendItem(self->checkId);
                         
                     LogHelpers_Print("ring id: %d", self->id);
 
+=======
+
+                    if (self->id > 0) {
+
+                        //globals->specialRingID = self->id;
+                        int16 offset           = 79;
+                        //change offset based on current zone
+
+                        LogHelpers_Print("zone check id: %d", Zone_GetZoneID());
+                        LogHelpers_Print("act check id: %d", Zone->actID);
+                        LogHelpers_Print("big ring id: %d", self->id);
+                        
+                        switch (Zone_GetZoneID()) {
+                        
+                        case ZONE_GHZ:
+                                if (Zone->actID == 0) {
+                                offset = 79;
+                                }
+                                else {
+                                    offset = 82;
+                                }
+                                break;
+                        case ZONE_CPZ:
+                            if (Zone->actID == 0) {
+                                offset = 85;
+                            }
+                            else {
+                                offset = 89;
+                            }
+                            break;
+                        case ZONE_SPZ:
+                            if (Zone->actID == 0) {
+                                offset = 92;
+                            }
+                            else {
+                                offset = 95;
+                            }
+                            break;
+                        case ZONE_FBZ:
+                            if (Zone->actID == 0) {
+                                offset = 98;
+                            }
+                            else {
+                                offset = 100;
+                            }
+                            break;
+                        case ZONE_PGZ:
+                            if (Zone->actID == 0) {
+                                offset = 104;
+                            }
+                            else {
+                                offset = 106;
+                            }
+                            break;
+                        case ZONE_SSZ:
+                            if (Zone->actID == 0) {
+                                offset = 109;
+                            }
+                            else {
+                                offset = 112;
+                            }
+                            break;
+                        case ZONE_HCZ:
+                            if (Zone->actID == 0) {
+                                offset = 115;
+                            }
+                            else {
+                                offset = 118;
+                            }
+                            break;
+
+                        case ZONE_MSZ:
+                            if (Zone->actID == 0) {
+                                if (GET_CHARACTER_ID(1) == ID_KNUCKLES) {
+                                    offset = 121;
+                                }
+                                else {
+                                    offset = 120;
+                                }
+                            }
+                            else {
+                                offset = 124;
+                            }
+                            break;
+                        case ZONE_OOZ:
+                            if (Zone->actID == 0) {
+                                offset = 127;
+                            }
+                            else {
+                                offset = 130;
+                            }
+                            break;
+                        case ZONE_LRZ:
+                            if (Zone->actID == 0) {
+                                offset = 132;
+                            }
+                            else {
+                                if (self->id == 6) {//fucked up dark evil twisted special ring ids
+                                    offset = 129;
+                                }
+                                if (self->id == 2) {
+                                    offset = 137;
+                                }
+                                if (self->id == 1) {
+                                    offset = 135;
+                                }
+                                if (self->id == 5) {
+                                    offset = 132;
+                                }
+                                if (self->id == 3) {
+                                    offset = 135;
+                                }
+                            }
+                            break;
+                        case ZONE_MMZ:
+                            if (Zone->actID == 0) {
+                                offset = 139;
+                            }
+                            else {
+                                offset = 142;
+                            }
+                            break;
+                        case ZONE_TMZ:
+                            if (Zone->actID == 0) {
+                                offset = 144;
+                            }
+                            else {
+                                offset = 144;//wierd offsets
+                            }
+                            break;
+
+
+
+
+                        default: 
+                            break;
+
+
+                        }
+                        ManiaAP_SendItem(offset + self->id);
+                        
+                    }
+>>>>>>> origin/main
 
                     RSDK.PlaySfx(SpecialRing->sfxSpecialRing, false, 0xFE);
                 }
@@ -355,8 +509,11 @@ void SpecialRing_State_Idle(void)
         }
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/main
 void SpecialRing_State_Flash(void)
 {
     RSDK_THIS(SpecialRing);

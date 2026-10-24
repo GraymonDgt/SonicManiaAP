@@ -21,7 +21,10 @@ struct ObjectUFO_Setup {
     int32 scoreBonus;
     int32 machPoints;
     int32 rings;
+<<<<<<< HEAD
     int32 prevRings;
+=======
+>>>>>>> origin/main
     int32 timer;
     int32 ringFrame;
     int32 ringPan;

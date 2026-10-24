@@ -138,6 +138,7 @@ void LinkGameLogicDLL(EngineInfo info)
 }
 #endif
 
+<<<<<<< HEAD
 void AttemptItemNotification(void)
 {
 
@@ -181,6 +182,8 @@ void AttemptItemNotification(void)
 }
 
 
+=======
+>>>>>>> origin/main
 // This is actually part of "LinkGameLogicDLL" but since we have 2 versions of it, its easier to use shared code this way
 void InitGameLogic(void)
 {

@@ -568,7 +568,10 @@ void SignPost_State_Falling(void)
                     self->itemBounceCount++;
                     self->velocity.y = -TO_FIXED(2);
                     if (self->itemBounceCount == 2)
+<<<<<<< HEAD
                         ManiaAP_TestSendItem(266);
+=======
+>>>>>>> origin/main
                         API_UnlockAchievement(&achievementList[ACH_SIGNPOST]);
                 }
             }

@@ -55,7 +55,11 @@ void SSZ1Setup_StageLoad(void)
             SSZ1Setup->outro = outro;
             foreach_break;
         }
+<<<<<<< HEAD
         //Zone->stageFinishCallback = SSZ1Setup_StageFinish_EndAct1;
+=======
+        Zone->stageFinishCallback = SSZ1Setup_StageFinish_EndAct1;
+>>>>>>> origin/main
     }
 
 #if MANIA_USE_PLUS

@@ -1,0 +1,9 @@
+C:/src/vcpkg/packages/libogg_x64-windows-static/lib/ogg.lib
+C:/src/vcpkg/packages/libogg_x64-windows-static/include/ogg/config_types.h
+C:/src/vcpkg/packages/libogg_x64-windows-static/include/ogg/ogg.h
+C:/src/vcpkg/packages/libogg_x64-windows-static/include/ogg/os_types.h
+C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggTargets.cmake
+C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggTargets-release.cmake
+C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggConfig.cmake
+C:/src/vcpkg/packages/libogg_x64-windows-static/lib/cmake/Ogg/OggConfigVersion.cmake
+C:/src/vcpkg/packages/libogg_x64-windows-static/lib/pkgconfig/ogg.pc

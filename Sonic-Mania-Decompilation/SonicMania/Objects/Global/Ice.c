@@ -36,9 +36,15 @@ void Ice_Draw(void)
 
 void Ice_Create(void *data)
 {
+<<<<<<< HEAD
     //LogHelpers_Print("Ice.c Create");
     RSDK_THIS(Ice);
     //LogHelpers_Print("Ice.c Create THIS");
+=======
+    LogHelpers_Print("Ice.c Create");
+    RSDK_THIS(Ice);
+    LogHelpers_Print("Ice.c Create THIS");
+>>>>>>> origin/main
     if (!SceneInfo->inEditor) {
         self->drawFX    = FX_FLIP;
         self->drawGroup = Zone->playerDrawGroup[0] + 1;
@@ -364,12 +370,21 @@ void Ice_VSSwap_CheckFrozen(void)
 
 void Ice_FreezePlayer(EntityPlayer *player)
 {
+<<<<<<< HEAD
     //LogHelpers_Print("Ice.c FreezePlayer");
     RSDK_THIS(Ice);
     //LogHelpers_Print("Ice.c FreezePlayer THIS");
     if (!Zone->gotTimeOver && player->state != Ice_PlayerState_Frozen && (player->shield != SHIELD_FIRE || player->invincibleTimer > 0)) {
         EntityIce *ice = CREATE_ENTITY(Ice, INT_TO_VOID(ICE_CHILD_PLAYER), player->position.x, player->position.y);
         //LogHelpers_Print("Ice.c FreezePlayer entity created");
+=======
+    LogHelpers_Print("Ice.c FreezePlayer");
+    RSDK_THIS(Ice);
+    LogHelpers_Print("Ice.c FreezePlayer THIS");
+    if (!Zone->gotTimeOver && player->state != Ice_PlayerState_Frozen && (player->shield != SHIELD_FIRE || player->invincibleTimer > 0)) {
+        EntityIce *ice = CREATE_ENTITY(Ice, INT_TO_VOID(ICE_CHILD_PLAYER), player->position.x, player->position.y);
+        LogHelpers_Print("Ice.c FreezePlayer entity created");
+>>>>>>> origin/main
         ice->playerPtr = player;
         
 #if MANIA_USE_PLUS

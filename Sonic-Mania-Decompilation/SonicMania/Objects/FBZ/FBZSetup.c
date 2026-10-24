@@ -105,7 +105,11 @@ void FBZSetup_StageLoad(void)
             FBZSetup->outro            = outro;
             foreach_break;
         }
+<<<<<<< HEAD
         //Zone->stageFinishCallback = FBZSetup_StageFinish_EndAct1;
+=======
+        Zone->stageFinishCallback = FBZSetup_StageFinish_EndAct1;
+>>>>>>> origin/main
     }
 
     if (isMainGameMode() && globals->atlEnabled && !CutsceneRules_CheckStageReload()) {

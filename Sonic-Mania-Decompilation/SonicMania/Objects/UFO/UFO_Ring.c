@@ -13,6 +13,7 @@ void UFO_Ring_Update(void)
 {
     RSDK_THIS(UFO_Ring);
     StateMachine_Run(self->state);
+<<<<<<< HEAD
 
 
     int32 recievedRings = ManiaAP_collectRingQueue();
@@ -29,6 +30,8 @@ void UFO_Ring_Update(void)
         }
     }
 
+=======
+>>>>>>> origin/main
 }
 
 void UFO_Ring_LateUpdate(void)

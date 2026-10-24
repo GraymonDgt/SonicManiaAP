@@ -329,7 +329,10 @@ void Current_State_WaterLeft(void)
                         if (RSDK.CheckSceneFolder("FBZ") && !player->sidekick && self->fbzAchievement && self->playerPositions[playerID].x >= x
                             && player->position.x < self->position.x) {
                             API_UnlockAchievement(&achievementList[ACH_FBZ]);
+<<<<<<< HEAD
                             ManiaAP_TestSendItem(274);//if you do this in hcz you deserve the check
+=======
+>>>>>>> origin/main
                         }
                         self->playerPositions[playerID].x = 0;
                         self->playerPositions[playerID].y = 0;

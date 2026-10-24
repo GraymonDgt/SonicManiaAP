@@ -1,0 +1,8 @@
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/glew.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/glew_s.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/uninstall.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/edit_cache.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/rebuild_cache.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/list_install_components.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/install.dir
+C:/src/vcpkg/buildtrees/glew/x64-windows-static-rel/CMakeFiles/install/local.dir

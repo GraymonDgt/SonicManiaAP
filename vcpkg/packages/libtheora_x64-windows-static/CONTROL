@@ -1,0 +1,7 @@
+Package: libtheora
+Version: 1.2.0
+Depends: libogg, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: bdf5c2023432120ea74e73f5f6043f180725ca6ef6788277d375686f3c82cdc0
+Description: Theora is a free and open video compression format from the Xiph.org Foundation.

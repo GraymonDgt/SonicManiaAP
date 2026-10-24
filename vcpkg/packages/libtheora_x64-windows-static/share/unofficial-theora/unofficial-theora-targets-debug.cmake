@@ -1,0 +1,39 @@
+#----------------------------------------------------------------
+# Generated CMake target import file for configuration "Debug".
+#----------------------------------------------------------------
+
+# Commands may need to know the format version.
+set(CMAKE_IMPORT_FILE_VERSION 1)
+
+# Import target "unofficial::theora::theora" for configuration "Debug"
+set_property(TARGET unofficial::theora::theora APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(unofficial::theora::theora PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/debug/lib/theora.lib"
+  )
+
+list(APPEND _cmake_import_check_targets unofficial::theora::theora )
+list(APPEND _cmake_import_check_files_for_unofficial::theora::theora "${_IMPORT_PREFIX}/debug/lib/theora.lib" )
+
+# Import target "unofficial::theora::theoraenc" for configuration "Debug"
+set_property(TARGET unofficial::theora::theoraenc APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(unofficial::theora::theoraenc PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/debug/lib/theoraenc.lib"
+  )
+
+list(APPEND _cmake_import_check_targets unofficial::theora::theoraenc )
+list(APPEND _cmake_import_check_files_for_unofficial::theora::theoraenc "${_IMPORT_PREFIX}/debug/lib/theoraenc.lib" )
+
+# Import target "unofficial::theora::theoradec" for configuration "Debug"
+set_property(TARGET unofficial::theora::theoradec APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(unofficial::theora::theoradec PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/debug/lib/theoradec.lib"
+  )
+
+list(APPEND _cmake_import_check_targets unofficial::theora::theoradec )
+list(APPEND _cmake_import_check_files_for_unofficial::theora::theoradec "${_IMPORT_PREFIX}/debug/lib/theoradec.lib" )
+
+# Commands beyond this point should not need to know the version.
+set(CMAKE_IMPORT_FILE_VERSION)

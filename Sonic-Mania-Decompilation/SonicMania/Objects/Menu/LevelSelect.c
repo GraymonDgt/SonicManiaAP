@@ -6,7 +6,11 @@
 // ---------------------------------------------------------------------
 
 #include "Game.h"
+<<<<<<< HEAD
 
+=======
+#include "ManiaAP.h"
+>>>>>>> origin/main
 
 ObjectLevelSelect *LevelSelect;
 
@@ -82,12 +86,15 @@ void LevelSelect_Create(void *data)
     for (int16 i = 0; i < 50; i++) {
         globals->unlockedItems[i] = ManiaAP_hasItem(i);
     }
+<<<<<<< HEAD
     globals->unlockedItems[99] = ManiaAP_hasItem(99);
     if (globals->unlockedItems[99] > 6) {
         ManiaAP_TestSendItem(267);
     }
         
 
+=======
+>>>>>>> origin/main
     foreach_all(UIText, label)
     {
         if (label->align == UITEXT_ALIGN_RIGHT) {
@@ -106,6 +113,7 @@ void LevelSelect_Create(void *data)
             else if (globals->unlockedItems[99] < 7 && i == 25) {
                 RSDK.SetString(&label->text, "X");
             }
+<<<<<<< HEAD
             if (i == 26) {
                 RSDK.SetString(&label->text, " ");
             }
@@ -118,6 +126,9 @@ void LevelSelect_Create(void *data)
             if (i == 28) {
                 RSDK.SetString(&label->text, "X");
             }
+=======
+
+>>>>>>> origin/main
         //LogHelpers_Print("i: %d", i);
         //LogHelpers_Print("data0: %d", label->data0);
         //LogHelpers_Print("data1: %d", label->data1);
@@ -639,6 +650,7 @@ void LevelSelect_ManagePlayerIcon(void)
     if (self->leaderCharacterID == 0) {
         self->leaderCharacterID++;
     }
+<<<<<<< HEAD
     int8 iterations = 0;
     //change self->leaderCharacterID based on unlocked characters
     while (true) {
@@ -653,6 +665,33 @@ void LevelSelect_ManagePlayerIcon(void)
         }
     }
 
+=======
+    //change self->leaderCharacterID based on unlocked characters
+    for (int16 i = 1;i<5;i++) {
+        if (self->leaderCharacterID == i) {
+            if (globals->unlockedItems[i] == 0) {
+                self->leaderCharacterID += 1;
+            }
+        }
+    }
+    if (self->leaderCharacterID >= LSELECT_PLAYER_RAY) {//loop through again to find a valid char
+        if (globals->unlockedItems[5] == 0) {
+            self->leaderCharacterID == LSELECT_PLAYER_SONIC;
+            for (int16 i = 1; i < 5; i++) {
+                if (self->leaderCharacterID == i) {
+                    if (globals->unlockedItems[i] == 0) {
+                        self->leaderCharacterID += 1;
+                        if (self->leaderCharacterID == LSELECT_PLAYER_RAY && globals->unlockedItems[5] == 0) {
+                            self->leaderCharacterID = LSELECT_PLAYER_SONIC;// still havent found a valid char, default to sonic
+                            break;
+                        } 
+                    }
+                }
+            }
+
+        }
+    }
+>>>>>>> origin/main
 
 
 
@@ -690,6 +729,7 @@ void LevelSelect_ManagePlayerIcon(void)
             player1->animator.frameID = LSELECT_PLAYER_SONIC;
             break;
     }
+<<<<<<< HEAD
     globals->unlockedItems[145] = ManiaAP_hasItem(145);
     globals->unlockedItems[146] = ManiaAP_hasItem(146);
     switch (self->sidekickCharacterID) {
@@ -723,11 +763,39 @@ void LevelSelect_ManagePlayerIcon(void)
                 //}
                 break;
             }
+=======
+
+    switch (self->sidekickCharacterID) {
+        case LSELECT_PLAYER_TAILS:
+            player2->animator.frameID = self->sidekickCharacterID;
+
+            // if leader is sonic & sidekick is tails, show ST icon. otherwise remove sidekick
+            if (self->leaderCharacterID != LSELECT_PLAYER_SONIC) {
+                self->sidekickCharacterID = LSELECT_PLAYER_NONE;
+                player2->animator.frameID = LSELECT_PLAYER_NONE;
+            }
+            break;
+
+>>>>>>> origin/main
         default:
             self->sidekickCharacterID = LSELECT_PLAYER_NONE;
             player2->animator.frameID = LSELECT_PLAYER_NONE;
             break;
 
+<<<<<<< HEAD
+=======
+        // if P2 is sonic, no he's not thats tails actually
+        case LSELECT_PLAYER_SONIC:
+            self->sidekickCharacterID = LSELECT_PLAYER_TAILS;
+            player2->animator.frameID = LSELECT_PLAYER_TAILS;
+
+            // if leader is sonic & sidekick is tails, show ST icon. otherwise remove sidekick
+            if (self->leaderCharacterID != LSELECT_PLAYER_SONIC) {
+                self->sidekickCharacterID = LSELECT_PLAYER_NONE;
+                player2->animator.frameID = LSELECT_PLAYER_NONE;
+            }
+            break;
+>>>>>>> origin/main
     }
 }
 

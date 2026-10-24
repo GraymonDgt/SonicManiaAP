@@ -276,7 +276,10 @@ void Gondola_HandlePlayerInteractions(void)
 
                         if (Gondola->taggedBoatIDs[0] && Gondola->taggedBoatIDs[1] && Gondola->taggedBoatIDs[2]) {
                             API_UnlockAchievement(&achievementList[ACH_HCZ]);
+<<<<<<< HEAD
                             ManiaAP_TestSendItem(277);
+=======
+>>>>>>> origin/main
                             Gondola->hasAchievement = true;
                         }
                     }

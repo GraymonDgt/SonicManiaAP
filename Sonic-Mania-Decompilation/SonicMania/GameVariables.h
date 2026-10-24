@@ -199,7 +199,10 @@ typedef struct {
     int32 forcesMode;
     int32 spikeBug;
     int8 unlockedItems[150];
+<<<<<<< HEAD
     int8 checkedLocations[300];
+=======
+>>>>>>> origin/main
     int8 fillerBuffer[30];
     int32 gameMode;
     int32 playerID; // active character IDs (usually leader & sidekick)

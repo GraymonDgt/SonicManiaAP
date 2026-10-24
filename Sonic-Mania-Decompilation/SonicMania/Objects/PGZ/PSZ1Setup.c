@@ -238,8 +238,13 @@ void PSZ1Setup_StageLoad(void)
     PSZ1Setup->buttonSideAniFrame    = 0;
     RSDK.DrawAniTiles(PSZ1Setup->aniTiles1, 223, 0, 224, 16, 32);
 
+<<<<<<< HEAD
     //if (isMainGameMode() && CutsceneRules_IsAct1())
         //Zone->stageFinishCallback = PSZ1Setup_StageFinish_EndAct1;
+=======
+    if (isMainGameMode() && CutsceneRules_IsAct1())
+        Zone->stageFinishCallback = PSZ1Setup_StageFinish_EndAct1;
+>>>>>>> origin/main
 
 #if MANIA_USE_PLUS
     if (SceneInfo->filter & FILTER_ENCORE)
@@ -295,7 +300,10 @@ void PSZ1Setup_Trigger_AwardAchievement(void)
 
         if (!count) {
             API_UnlockAchievement(&achievementList[ACH_PGZ]);
+<<<<<<< HEAD
             ManiaAP_TestSendItem(275);
+=======
+>>>>>>> origin/main
             PSZ1Setup->hasAchievement = true;
         }
     }

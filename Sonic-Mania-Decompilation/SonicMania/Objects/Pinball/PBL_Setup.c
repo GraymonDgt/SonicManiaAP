@@ -16,6 +16,7 @@ void PBL_Setup_Update(void)
 
     StateMachine_Run(self->state);
 
+<<<<<<< HEAD
     if (ManiaAP_checkDeath() != 0) {
         ManiaAP_resetDeathLink();
         PBL_Setup_ExitPinball();
@@ -24,6 +25,8 @@ void PBL_Setup_Update(void)
     
 
 
+=======
+>>>>>>> origin/main
     if (self->state != PBL_Setup_SaveAndChangeScene && globals->gameMode < MODE_TIMEATTACK)
         ++SaveGame_GetSaveRAM()->zoneTimes[28];
 }

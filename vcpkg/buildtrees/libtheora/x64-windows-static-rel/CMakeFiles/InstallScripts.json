@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/src/vcpkg/buildtrees/libtheora/x64-windows-static-rel/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

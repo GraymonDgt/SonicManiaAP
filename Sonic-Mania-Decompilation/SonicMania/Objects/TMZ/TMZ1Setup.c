@@ -69,7 +69,10 @@ void TMZ1Setup_StaticUpdate(void)
     EntityActClear *actClear = RSDK_GET_ENTITY(SLOT_ACTCLEAR, ActClear);
     if (!TMZ1Setup->hasAchievement && actClear->classID == ActClear->classID && actClear->state == ActClear_State_EnterText && !Player->gotHit[0]) {
         API_UnlockAchievement(&achievementList[ACH_TMZ]);
+<<<<<<< HEAD
         ManiaAP_TestSendItem(282);
+=======
+>>>>>>> origin/main
         TMZ1Setup->hasAchievement = true;
     }
 }
@@ -135,8 +138,13 @@ void TMZ1Setup_StageLoad(void)
     RSDK.SetDrawGroupProperties(Zone->hudDrawGroup - 1, false, StateMachine_None);
     RSDK.SetDrawGroupProperties(Zone->hudDrawGroup, false, StateMachine_None);
 
+<<<<<<< HEAD
     //if (isMainGameMode() && CutsceneRules_IsAct1())
         //Zone->stageFinishCallback = TMZ1Setup_StageFinish_EndAct1;
+=======
+    if (isMainGameMode() && CutsceneRules_IsAct1())
+        Zone->stageFinishCallback = TMZ1Setup_StageFinish_EndAct1;
+>>>>>>> origin/main
 
     if (CutsceneRules_CheckStageReload())
         TMZ1Setup->hasAchievement = true;

@@ -101,7 +101,11 @@ void MMZSetup_StageLoad(void)
     else {
         if (isMainGameMode() && CutsceneRules_IsAct1()) {
             Zone->shouldRecoverPlayers = true;
+<<<<<<< HEAD
             //Zone->stageFinishCallback  = MMZSetup_StageFinish_EndAct1;
+=======
+            Zone->stageFinishCallback  = MMZSetup_StageFinish_EndAct1;
+>>>>>>> origin/main
         }
 
         Zone->cameraBoundsB[0] = 5120;

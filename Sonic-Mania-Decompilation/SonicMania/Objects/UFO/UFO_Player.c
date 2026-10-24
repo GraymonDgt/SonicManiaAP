@@ -15,6 +15,7 @@ void UFO_Player_Update(void)
 
     StateMachine_Run(self->stateInput);
     StateMachine_Run(self->state);
+<<<<<<< HEAD
     if (ManiaAP_checkDeath() != 0) {
         self->interaction   = 0;
         self->timer         = 0;
@@ -28,6 +29,11 @@ void UFO_Player_Update(void)
     RSDK.ProcessAnimation(&self->animator);
     if (UFO_Setup->timedOut)
 
+=======
+
+    RSDK.ProcessAnimation(&self->animator);
+    if (UFO_Setup->timedOut)
+>>>>>>> origin/main
         self->groundVel -= self->groundVel >> 5;
 }
 
@@ -358,7 +364,11 @@ void UFO_Player_HandleSpeedUp(void)
             self->timer         = 0;
             self->state         = UFO_Player_State_CourseOut;
             self->camera->state = UFO_Camera_State_CourseOut;
+<<<<<<< HEAD
             ManiaAP_sendDeath("fell out of a special stage");
+=======
+
+>>>>>>> origin/main
             if (!UFO_Setup->timedOut)
                 RSDK.PlaySfx(UFO_Player->sfxDrop, false, 0xFF);
 

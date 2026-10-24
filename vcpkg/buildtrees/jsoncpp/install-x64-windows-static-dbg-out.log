@@ -1,0 +1,27 @@
+Change Dir: 'C:/src/vcpkg/buildtrees/jsoncpp/x64-windows-static-dbg'
+
+Run Build Command(s): C:\src\vcpkg\downloads\tools\ninja-1.13.2-windows\ninja.exe -v -v -j9 install
+[1/5] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"   /TP  -IC:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\include -IC:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\src\lib_json\..\..\include /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MTd /Z7 /Ob0 /Od /RTC1  -MTd /W4 /showIncludes /Fosrc\lib_json\CMakeFiles\jsoncpp_static.dir\json_writer.cpp.obj /Fdsrc\lib_json\CMakeFiles\jsoncpp_static.dir\jsoncpp_static.pdb /FS -c C:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\src\lib_json\json_writer.cpp
+[2/5] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"   /TP  -IC:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\include -IC:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\src\lib_json\..\..\include /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MTd /Z7 /Ob0 /Od /RTC1  -MTd /W4 /showIncludes /Fosrc\lib_json\CMakeFiles\jsoncpp_static.dir\json_value.cpp.obj /Fdsrc\lib_json\CMakeFiles\jsoncpp_static.dir\jsoncpp_static.pdb /FS -c C:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\src\lib_json\json_value.cpp
+[3/5] "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe"   /TP  -IC:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\include -IC:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\src\lib_json\..\..\include /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP  /MTd /Z7 /Ob0 /Od /RTC1  -MTd /W4 /showIncludes /Fosrc\lib_json\CMakeFiles\jsoncpp_static.dir\json_reader.cpp.obj /Fdsrc\lib_json\CMakeFiles\jsoncpp_static.dir\jsoncpp_static.pdb /FS -c C:\src\vcpkg\buildtrees\jsoncpp\src\1.9.6-29ceffc35f.clean\src\lib_json\json_reader.cpp
+[4/5] C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\lib.exe"  /machine:x64 /nologo /out:lib\jsoncpp.lib src\lib_json\CMakeFiles\jsoncpp_static.dir\json_reader.cpp.obj src\lib_json\CMakeFiles\jsoncpp_static.dir\json_value.cpp.obj src\lib_json\CMakeFiles\jsoncpp_static.dir\json_writer.cpp.obj && cd ."
+[4/5] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\src\vcpkg\buildtrees\jsoncpp\x64-windows-static-dbg && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Debug"
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/pkgconfig/jsoncpp.pc
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/cmake/jsoncpp/jsoncpp-targets.cmake
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/cmake/jsoncpp/jsoncpp-targets-debug.cmake
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/cmake/jsoncpp/jsoncppConfigVersion.cmake
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/cmake/jsoncpp/jsoncppConfig.cmake
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/lib/jsoncpp.lib
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/allocator.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/assertions.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/config.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/forwards.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/json.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/json_features.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/reader.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/value.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/version.h
+-- Installing: C:/src/vcpkg/packages/jsoncpp_x64-windows-static/debug/include/json/writer.h
+

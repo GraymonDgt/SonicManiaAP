@@ -180,7 +180,10 @@ void SSZ2Setup_Trigger_AwardAchievement(void)
     if (!SSZ2Setup->hasAchievement) {
         if (!SceneInfo->minutes) {
             API_UnlockAchievement(&achievementList[ACH_SSZ]);
+<<<<<<< HEAD
             ManiaAP_TestSendItem(276);
+=======
+>>>>>>> origin/main
             SSZ2Setup->hasAchievement = true;
         }
     }

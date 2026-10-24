@@ -28,7 +28,11 @@ void Zone_LateUpdate(void)
         // Handle Time Overs
         if (SceneInfo->minutes == 10
 #if MANIA_USE_PLUS
+<<<<<<< HEAD
             && !(globals->unlockedItems[147] > 0)
+=======
+            && !(globals->medalMods & MEDAL_NOTIMEOVER)
+>>>>>>> origin/main
 #endif
         ) {
             SceneInfo->minutes      = 9;

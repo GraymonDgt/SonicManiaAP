@@ -212,6 +212,7 @@ void StarPost_CheckBonusStageEntry(void)
                 //pick special stage based on unlocked items
                 //if respective location has already been collected, keep going
 
+<<<<<<< HEAD
                 for (int i = 201; i < 265; i++) {
                     globals->checkedLocations[i] = ManiaAP_checkedLocation(i);
                 }
@@ -272,6 +273,8 @@ void StarPost_CheckBonusStageEntry(void)
 
 
 
+=======
+>>>>>>> origin/main
 
 
 
@@ -290,7 +293,11 @@ void StarPost_CheckBonusStageEntry(void)
 #endif
                     SaveGame_GetSaveRAM()->storedStageID = SceneInfo->listPos;
                     RSDK.SetScene("Blue Spheres", "");
+<<<<<<< HEAD
                     SceneInfo->listPos = 0;
+=======
+                    SceneInfo->listPos += globals->blueSpheresID;
+>>>>>>> origin/main
                     Zone_StartFadeOut(10, 0xF0F0F0);
                     Music_Stop();
 #if MANIA_USE_PLUS
@@ -413,7 +420,10 @@ void StarPost_State_Spinning(void)
     self->angle += self->ballSpeed;
     if (!StarPost->hasAchievement && self->timer == 10) {
         API_UnlockAchievement(&achievementList[ACH_STARPOST]);
+<<<<<<< HEAD
         ManiaAP_TestSendItem(265);
+=======
+>>>>>>> origin/main
         StarPost->hasAchievement = true;
     }
 
