@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"jsoncpp/src/lib_json/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"jsoncpp/src/lib_json/jsoncpp.lib"
+			],
+			"targetId" : "jsoncpp_static::@a9cdb551c294815260e6",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/.//json_reader.cpp.obj",
+					"to" : "objects-Debug/jsoncpp_object/json_reader.cpp.obj"
+				},
+				{
+					"from" : "jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/.//json_value.cpp.obj",
+					"to" : "objects-Debug/jsoncpp_object/json_value.cpp.obj"
+				},
+				{
+					"from" : "jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/.//json_writer.cpp.obj",
+					"to" : "objects-Debug/jsoncpp_object/json_writer.cpp.obj"
+				}
+			],
+			"targetId" : "jsoncpp_object::@a9cdb551c294815260e6",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "jsoncpp/src/lib_json",
+		"source" : "jsoncpp/src/lib_json"
+	}
+}

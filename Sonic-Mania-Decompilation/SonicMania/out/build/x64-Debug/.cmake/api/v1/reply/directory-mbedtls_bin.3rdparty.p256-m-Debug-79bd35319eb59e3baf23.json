@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/mbedtls-3.6.4/3rdparty/p256-m/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/mbedtls-3.6.4/3rdparty/p256-m/:C:/src/APCpp/out/build/x64-Debug/mbedtls-3.6.4/3rdparty/p256-m"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mbedtls_bin/3rdparty/p256-m/p256m.lib"
+			],
+			"targetId" : "p256m::@6f80f27d62f8645a5e9c",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "p256m::@6f80f27d62f8645a5e9c",
+				"index" : 10
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "mbedtls_bin/3rdparty/p256-m",
+		"source" : "out/build/x64-Debug/mbedtls-3.6.4/3rdparty/p256-m"
+	}
+}

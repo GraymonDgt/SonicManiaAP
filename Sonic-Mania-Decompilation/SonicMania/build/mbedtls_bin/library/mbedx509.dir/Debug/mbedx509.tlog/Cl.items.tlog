@@ -1,0 +1,9 @@
+C:\src\APCpp\build\mbedtls-3.6.4\library\pkcs7.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\pkcs7.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509_create.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509_create.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509_crl.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509_crl.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509_crt.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509_crt.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509_csr.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509_csr.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509write.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509write.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509write_crt.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509write_crt.obj
+C:\src\APCpp\build\mbedtls-3.6.4\library\x509write_csr.c;C:\src\APCpp\build\mbedtls_bin\library\mbedx509.dir\Debug\x509write_csr.obj

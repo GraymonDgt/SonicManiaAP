@@ -1,0 +1,3 @@
+C:/src/APCpp/build/APCpp.dir/MinSizeRel/Archipelago.obj
+C:/src/APCpp/build/APCpp.dir/MinSizeRel/Archipelago_DataStorageSim.obj
+C:/src/APCpp/build/APCpp.dir/MinSizeRel/Archipelago_Gifting.obj

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/src/APCpp/build/mbedtls-3.6.4/library/CMakeLists.txt
+C:/src/APCpp/build/mbedtls-3.6.4/library/error.c
+C:/src/APCpp/build/mbedtls-3.6.4/library/psa_crypto_driver_wrappers_no_static.c
+C:/src/APCpp/build/mbedtls-3.6.4/library/ssl_debug_helpers_generated.c
+C:/src/APCpp/build/mbedtls-3.6.4/library/version_features.c

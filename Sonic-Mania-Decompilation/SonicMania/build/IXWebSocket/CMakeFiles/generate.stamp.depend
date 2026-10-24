@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/src/APCpp/IXWebSocket/CMake/FindMbedTLS.cmake
+C:/src/APCpp/IXWebSocket/CMakeLists.txt
+C:/src/APCpp/build/CMakeFiles/pkgRedirects/zlib-config-version.cmake
+C:/src/APCpp/build/CMakeFiles/pkgRedirects/zlib-config.cmake
