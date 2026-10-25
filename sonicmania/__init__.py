@@ -1,7 +1,7 @@
 import typing
 import os
 import json
-from .Items import (item_table, item_data_table, generic_item_data_table, zone_item_data_table, character_item_data_table, SonicManiaItem)
+from .Items import (item_table, item_data_table, generic_item_data_table, zone_item_data_table, character_item_data_table, full_zone_item_data_table, ability_item_data_table, SonicManiaItem)
 
 from .Locations import location_table, SonicManiaLocation, ghz_table,cpz_table,spz_table,fbz_table,pgz_table,ssz_table,hcz_table,msz_table,ooz_table,lrz_table,mmz_table,tmz_table,special_stage_table
 from .Options import mania_options_groups, SonicManiaOptions
@@ -42,7 +42,7 @@ class SonicManiaWorld(World):
 
 
     item_name_groups = {
-        "Zone":zone_item_data_table,
+        "Zone":{**zone_item_data_table,**full_zone_item_data_table},
         "Character":character_item_data_table
     }
 
@@ -81,6 +81,12 @@ class SonicManiaWorld(World):
                 max_locations += 32
         #if self.options.legally_distinct and not self.options.pirated:#im going insane
         #    max_locations +=1
+        if self.options.achievementsanity:
+            max_locations += 16
+            if self.options.blue_spheres >0:
+                max_locations += 1
+                if self.options.blue_spheres > 1:
+                    max_locations += 1
         self.number_of_locations = max_locations
         self.move_rando_bitvec = 0
 
@@ -105,31 +111,58 @@ class SonicManiaWorld(World):
 
 
 
-        Valid_starts = ["Green Hill Zone (Act 1)","Green Hill Zone (Act 2)",
-"Chemical Plant Zone (Act 1)","Chemical Plant Zone (Act 2)",
-"Studiopolis Zone (Act 1)","Studiopolis Zone (Act 2)",
-"Flying Battery Zone (Act 1)","Flying Battery Zone (Act 2)",
-"Press Garden Zone (Act 1)","Press Garden Zone (Act 2)",
-"Stardust Speedway Zone (Act 1)","Stardust Speedway Zone (Act 2)",
-"Hydrocity Zone (Act 1)","Hydrocity Zone (Act 2)",
-"Mirage Saloon Zone (Act 1)","Mirage Saloon Zone (Act 2)",
-"Oil Ocean Zone (Act 1)","Oil Ocean Zone (Act 2)","Lava Reef Zone (Act 2)",
-"Metallic Madness Zone (Act 1)","Metallic Madness Zone (Act 2)",
-"Titanic Monarch Zone (Act 1)"]
-
-        rand_idx = random.randrange(len(Valid_starts))
-
-        Starting_zone = Valid_starts[rand_idx]
 
 
-        for zone in zone_item_data_table.keys():
-            if zone == Starting_zone:
-                self.multiworld.push_precollected(self.create_item(zone))
-                continue
-            self.multiworld.itempool += [self.create_item(zone)]
-            slots_to_fill-=1
+        if self.options.actsanity:
+            Valid_starts = ["Green Hill Zone (Act 1)", "Green Hill Zone (Act 2)",
+                            "Chemical Plant Zone (Act 1)", "Chemical Plant Zone (Act 2)",
+                            "Studiopolis Zone (Act 1)", "Studiopolis Zone (Act 2)",
+                            "Flying Battery Zone (Act 1)", "Flying Battery Zone (Act 2)",
+                            "Press Garden Zone (Act 1)", "Press Garden Zone (Act 2)",
+                            "Stardust Speedway Zone (Act 1)", "Stardust Speedway Zone (Act 2)",
+                            "Hydrocity Zone (Act 1)", "Hydrocity Zone (Act 2)",
+                            "Mirage Saloon Zone (Act 1)", "Mirage Saloon Zone (Act 2)",
+                            "Oil Ocean Zone (Act 1)", "Oil Ocean Zone (Act 2)", "Lava Reef Zone (Act 2)",
+                            "Metallic Madness Zone (Act 1)", "Metallic Madness Zone (Act 2)",
+                            "Titanic Monarch Zone (Act 1)"]
 
-        Valid_chars = ["Sonic","Tails","Knuckles","Mighty","Ray"]
+            rand_idx = random.randrange(len(Valid_starts))
+
+            Starting_zone = Valid_starts[rand_idx]
+
+            for zone in zone_item_data_table.keys():
+                if zone == Starting_zone:
+                    self.multiworld.push_precollected(self.create_item(zone))
+                    continue
+                self.multiworld.itempool += [self.create_item(zone)]
+                slots_to_fill-=1
+        else:
+            Valid_starts = ["Green Hill Zone",
+                            "Chemical Plant Zone",
+                            "Studiopolis Zone",
+                            "Flying Battery Zone",
+                            "Press Garden Zone",
+                            "Stardust Speedway Zone",
+                            "Hydrocity Zone",
+                            "Mirage Saloon Zone",
+                            "Oil Ocean Zone", "Lava Reef Zone",
+                            "Metallic Madness Zone"]
+
+            rand_idx = random.randrange(len(Valid_starts))
+
+            Starting_zone = Valid_starts[rand_idx]
+            for zone in full_zone_item_data_table.keys():
+                if zone == Starting_zone:
+                    self.multiworld.push_precollected(self.create_item(zone))
+                    continue
+                self.multiworld.itempool += [self.create_item(zone)]
+                slots_to_fill-=1
+
+        Valid_chars = ["Sonic","Tails","Knuckles"]
+
+        if self.options.dlc_toggle:
+            Valid_chars.append("Mighty")
+            Valid_chars.append("Ray")
 
         rand_idx = random.randrange(len(Valid_chars))
 
@@ -139,6 +172,9 @@ class SonicManiaWorld(World):
             if char == Starting_char:
                 self.multiworld.push_precollected(self.create_item(char))
                 continue
+            if not self.options.dlc_toggle:
+                if char == "Ray" or char == "Mighty":
+                    continue
             self.multiworld.itempool += [self.create_item(char)]
             slots_to_fill -= 1
 
@@ -147,10 +183,9 @@ class SonicManiaWorld(World):
             self.multiworld.itempool += [self.create_item("Chaos Emerald")]
             slots_to_fill -=1
 
-        self.multiworld.itempool += [self.create_item("Spindash")]
-        self.multiworld.itempool += [self.create_item("Super Peelout")]
-        self.multiworld.itempool += [self.create_item("Insta-shield")]
-        slots_to_fill -= 3
+        for thing in ability_item_data_table.keys():
+            self.multiworld.itempool += [self.create_item(thing)]
+            slots_to_fill-=1
 
         if self.options.blue_spheres >0:#WORK????
             self.multiworld.itempool += [self.create_item("Blue Sphere Set 1")]
@@ -218,8 +253,9 @@ class SonicManiaWorld(World):
     def fill_slot_data(self):
         return {
             "RingLink": self.options.ring_link.value,
-            #"DeathLink": self.options.death_link.value,
+            "DeathLink": self.options.death_link.value,
             "CompletionType": self.options.completion_type.value,
+            "SpheresLevel":self.options.blue_spheres.value
         }
 
     def generate_output(self, output_directory: str):

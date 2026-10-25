@@ -16,7 +16,7 @@ generic_item_data_table: dict[str, SonicManiaItemData] = {
 "Chaos Emerald": SonicManiaItemData(99),
 
 
-"Blue Sphere Medal": SonicManiaItemData(140, ItemClassification.progression_deprioritized_skip_balancing),
+"Medal": SonicManiaItemData(140, ItemClassification.progression_deprioritized_skip_balancing),
 "Blue Sphere Set 1": SonicManiaItemData(141),
 "Blue Sphere Set 2": SonicManiaItemData(142),
 "Blue Sphere Set 3": SonicManiaItemData(143),
@@ -41,6 +41,10 @@ traps_item_data_table:dict[str, SonicManiaItemData] = {
 "Spike Bug": SonicManiaItemData(121, ItemClassification.trap),
 "Size Laser": SonicManiaItemData(122, ItemClassification.trap),
 "Ground Speed Cap": SonicManiaItemData(123, ItemClassification.trap),
+"Sonic Origins Classic Mode": SonicManiaItemData(124, ItemClassification.trap),
+"Max Blue Sphere Speed": SonicManiaItemData(125, ItemClassification.trap),
+"Ordinary Trap": SonicManiaItemData(126, ItemClassification.trap),
+"Babysit Partner": SonicManiaItemData(127, ItemClassification.trap),
 }
 
 character_item_data_table: dict[str, SonicManiaItemData] = {
@@ -98,13 +102,100 @@ zone_item_data_table: dict[str, SonicManiaItemData] = {
 
 
 }
+full_zone_item_data_table: dict[str, SonicManiaItemData] = {
+
+"Green Hill Zone": SonicManiaItemData(37),
+"Chemical Plant Zone": SonicManiaItemData(38),
+"Studiopolis Zone": SonicManiaItemData(39),
+"Flying Battery Zone": SonicManiaItemData(40),
+"Press Garden Zone": SonicManiaItemData(41),
+"Stardust Speedway Zone": SonicManiaItemData(42),
+"Hydrocity Zone": SonicManiaItemData(43),
+"Mirage Saloon Zone": SonicManiaItemData(44),
+"Oil Ocean Zone": SonicManiaItemData(45),
+"Lava Reef Zone": SonicManiaItemData(46),
+"Metallic Madness Zone": SonicManiaItemData(47),
+"Titanic Monarch Zone": SonicManiaItemData(48),
+
+"Special Stage 1": SonicManiaItemData(30),
+"Special Stage 2": SonicManiaItemData(31),
+"Special Stage 3": SonicManiaItemData(32),
+"Special Stage 4": SonicManiaItemData(33),
+"Special Stage 5": SonicManiaItemData(34),
+"Special Stage 6": SonicManiaItemData(35),
+"Special Stage 7": SonicManiaItemData(36),
+}
+encore_item_data_table: dict[str, SonicManiaItemData] = {
+
+"Encore Green Hill Zone (Act 1)": SonicManiaItemData(37),
+"Encore Green Hill Zone (Act 2)": SonicManiaItemData(38),
+"Encore Chemical Plant Zone (Act 1)": SonicManiaItemData(39),
+"Encore Chemical Plant Zone (Act 2)": SonicManiaItemData(40),
+"Encore Studiopolis Zone (Act 1)": SonicManiaItemData(41),
+"Encore Studiopolis Zone (Act 2)": SonicManiaItemData(42),
+"Encore Flying Battery Zone (Act 1)": SonicManiaItemData(43),
+"Encore Flying Battery Zone (Act 2)": SonicManiaItemData(44),
+"Encore Press Garden Zone (Act 1)": SonicManiaItemData(45),
+"Encore Press Garden Zone (Act 2)": SonicManiaItemData(46),
+"Encore Stardust Speedway Zone (Act 1)": SonicManiaItemData(47),
+"Encore Stardust Speedway Zone (Act 2)": SonicManiaItemData(48),
+"Encore Hydrocity Zone (Act 1)": SonicManiaItemData(49),
+"Encore Hydrocity Zone (Act 2)": SonicManiaItemData(50),
+"Encore Mirage Saloon Zone (Act 1)": SonicManiaItemData(51),
+"Encore Mirage Saloon Zone (Act 2)": SonicManiaItemData(52),
+"Encore Oil Ocean Zone (Act 1)": SonicManiaItemData(53),
+"Encore Oil Ocean Zone (Act 2)": SonicManiaItemData(54),
+"Encore Lava Reef Zone (Act 1)": SonicManiaItemData(55),
+"Encore Lava Reef Zone (Act 2)": SonicManiaItemData(56),
+"Encore Metallic Madness Zone (Act 1)": SonicManiaItemData(57),
+"Encore Metallic Madness Zone (Act 2)": SonicManiaItemData(58),
+"Encore Titanic Monarch Zone (Act 1)": SonicManiaItemData(59),
+"Encore Titanic Monarch Zone (Act 2)": SonicManiaItemData(60),
+
+"Special Stage 8": SonicManiaItemData(61),
+"Special Stage 9": SonicManiaItemData(62),
+"Special Stage 10": SonicManiaItemData(63),
+"Special Stage 11": SonicManiaItemData(64),
+"Special Stage 12": SonicManiaItemData(65),
+"Special Stage 13": SonicManiaItemData(66),
+"Special Stage 14": SonicManiaItemData(67),
+
+
+}
+full_encore_item_data_table: dict[str, SonicManiaItemData] = {
+
+"Encore Green Hill Zone": SonicManiaItemData(68),
+"Encore Chemical Plant Zone": SonicManiaItemData(69),
+"Encore Studiopolis Zone": SonicManiaItemData(70),
+"Encore Flying Battery Zone": SonicManiaItemData(71),
+"Encore Press Garden Zone": SonicManiaItemData(72),
+"Encore Stardust Speedway Zone": SonicManiaItemData(73),
+"Encore Hydrocity Zone": SonicManiaItemData(74),
+"Encore Mirage Saloon Zone": SonicManiaItemData(75),
+"Encore Oil Ocean Zone": SonicManiaItemData(76),
+"Encore Lava Reef Zone": SonicManiaItemData(77),
+"Encore Metallic Madness Zone": SonicManiaItemData(78),
+"Encore Titanic Monarch Zone": SonicManiaItemData(79),
+
+"Special Stage 8": SonicManiaItemData(61),
+"Special Stage 9": SonicManiaItemData(62),
+"Special Stage 10": SonicManiaItemData(63),
+"Special Stage 11": SonicManiaItemData(64),
+"Special Stage 12": SonicManiaItemData(65),
+"Special Stage 13": SonicManiaItemData(66),
+"Special Stage 14": SonicManiaItemData(67),
+}
+
 
 
 ability_item_data_table: dict[str, SonicManiaItemData] = {
-
+"& Tails": SonicManiaItemData(145),
+"& Knuckles": SonicManiaItemData(146),
+"No Time Limit": SonicManiaItemData(147,ItemClassification.useful),
+#"Starting Hyper Ring": SonicManiaItemData(148,ItemClassification.useful),
 "Super Peelout": SonicManiaItemData(98),
 "Spindash": SonicManiaItemData(97),
-"Insta-shield": SonicManiaItemData(96),
+"Insta-shield": SonicManiaItemData(96,ItemClassification.useful),
 }
 
 item_data_table = {
@@ -113,6 +204,10 @@ item_data_table = {
     **character_item_data_table,
     **shield_item_data_table,
     **zone_item_data_table,
-    **ability_item_data_table}
+    **ability_item_data_table,
+    **full_zone_item_data_table,
+    **encore_item_data_table,
+    **full_encore_item_data_table,
+}
 
 item_table = {name: data.code for name, data in item_data_table.items() if data.code is not None}
