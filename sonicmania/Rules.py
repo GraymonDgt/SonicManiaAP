@@ -41,8 +41,8 @@ def set_rules(world, options: SonicManiaOptions, player: int, area_connections: 
     connect_regions(world, player, "Menu", "Flying Battery 1", lambda state: state.has("Flying Battery Zone (Act 1)", player) or state.has("Flying Battery Zone", player))
     connect_regions(world, player, "Menu", "Flying Battery 2", lambda state: state.has("Flying Battery Zone (Act 2)", player) or state.has("Flying Battery Zone", player))
 
-    connect_regions(world, player, "Menu", "Press Garden 1", lambda state: state.has("Press Garden Zone (Act 1)", player) or state.has("Flying Battery Zone", player))
-    connect_regions(world, player, "Menu", "Press Garden 2", lambda state: state.has("Press Garden Zone (Act 2)", player) or state.has("Flying Battery Zone", player))
+    connect_regions(world, player, "Menu", "Press Garden 1", lambda state: state.has("Press Garden Zone (Act 1)", player) or state.has("Press Garden Zone", player))
+    connect_regions(world, player, "Menu", "Press Garden 2", lambda state: state.has("Press Garden Zone (Act 2)", player) or state.has("Press Garden Zone", player))
 
     connect_regions(world, player, "Menu", "Stardust Speedway 1", lambda state: state.has("Stardust Speedway Zone (Act 1)", player) or state.has("Stardust Speedway Zone", player))
     connect_regions(world, player, "Menu", "Stardust Speedway 2", lambda state: state.has("Stardust Speedway Zone (Act 2)", player) or state.has("Stardust Speedway Zone", player))
@@ -169,9 +169,6 @@ def set_rules(world, options: SonicManiaOptions, player: int, area_connections: 
 
         add_rule(world.get_location("Achievement: King of Speed", player),
                  lambda state: state.can_reach_region("Stardust Speedway 2", player))
-
-        add_rule(world.get_location("Achievement: Boat Enthusiast", player),
-                 lambda state: state.can_reach_region("Hydrocity 1", player))
 
         add_rule(world.get_location("Achievement: Boat Enthusiast", player),
                  lambda state: state.can_reach_region("Hydrocity 1", player))
