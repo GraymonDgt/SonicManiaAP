@@ -271,16 +271,11 @@ void PuyoMatch_State_HandleCombos(void)
     RSDK_THIS(PuyoMatch);
 
     self->comboBeanCount = 0;
-<<<<<<< HEAD
     if (++self->comboCount == 3 && self->stateInput == PuyoBean_Input_Player) {
         API_UnlockAchievement(&achievementList[ACH_CPZ]);
         ManiaAP_TestSendItem(272);
     }
         
-=======
-    if (++self->comboCount == 3 && self->stateInput == PuyoBean_Input_Player)
-        API_UnlockAchievement(&achievementList[ACH_CPZ]);
->>>>>>> origin/main
 
     uint8 comboColors          = 0;
     EntityPuyoBean *targetBean = NULL;

@@ -308,15 +308,10 @@ void Shutterbug_TryTakePicture(void)
 
     foreach_active(Player, player)
     {
-<<<<<<< HEAD
         if (Player_CheckCollisionTouch(player, self, &Shutterbug->hitboxAchievement) && ++Shutterbug->pictureCount == 10) {
             API_UnlockAchievement(&achievementList[ACH_SPZ]);
             ManiaAP_TestSendItem(273);
         }
-=======
-        if (Player_CheckCollisionTouch(player, self, &Shutterbug->hitboxAchievement) && ++Shutterbug->pictureCount == 10)
-            API_UnlockAchievement(&achievementList[ACH_SPZ]);
->>>>>>> origin/main
     }
 }
 

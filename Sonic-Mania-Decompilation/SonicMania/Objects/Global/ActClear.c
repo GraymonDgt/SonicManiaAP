@@ -6,11 +6,7 @@
 // ---------------------------------------------------------------------
 
 #include "Game.h"
-<<<<<<< HEAD
 //#include "ManiaAP.h"
-=======
-#include "../../ManiaAP.h"
->>>>>>> origin/main
 
 ObjectActClear *ActClear;
 
@@ -322,7 +318,6 @@ void ActClear_Create(void *data)
 
         case ZONE_GHZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(40);
                 }
@@ -338,17 +333,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(2);
                 }
-=======
-                ManiaAP_SendItem(1);
-            }
-            else {
-                ManiaAP_SendItem(2);
->>>>>>> origin/main
             }
             break;
         case ZONE_CPZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(42);
                 }
@@ -363,17 +351,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(4);
                 }
-=======
-                ManiaAP_SendItem(3);
-            }
-            else {
-                ManiaAP_SendItem(4);
->>>>>>> origin/main
             }
             break;
         case ZONE_SPZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(44);
                 }
@@ -388,17 +369,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(6);
                 }
-=======
-                ManiaAP_SendItem(5);
-            }
-            else {
-                ManiaAP_SendItem(6);
->>>>>>> origin/main
             }
             break;
         case ZONE_FBZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(46);
                 }
@@ -431,25 +405,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(10);
                 }
-=======
-                ManiaAP_SendItem(7);
-            }
-            else {
-                ManiaAP_SendItem(8);
-            }
-            break;
-        case ZONE_PGZ:
-            if (ActClear->displayedActID == 1) {
-                ManiaAP_SendItem(9);
-            }
-            else {
-                ManiaAP_SendItem(10);
->>>>>>> origin/main
             }
             break;
         case ZONE_SSZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(50);
                 }
@@ -464,17 +423,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(12);
                 }
-=======
-                ManiaAP_SendItem(11);
-            }
-            else {
-                ManiaAP_SendItem(12);
->>>>>>> origin/main
             }
             break;
         case ZONE_HCZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(52);
                 }
@@ -489,18 +441,11 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(14);
                 }
-=======
-                ManiaAP_SendItem(13);
-            }
-            else {
-                ManiaAP_SendItem(14);
->>>>>>> origin/main
             }
             break;
 
         case ZONE_MSZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(54);
                 }
@@ -520,22 +465,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(17);
                 }
-=======
-                if (GET_CHARACTER_ID(1) == ID_KNUCKLES) {
-                    ManiaAP_SendItem(16);
-                }
-                else {
-                    ManiaAP_SendItem(15);
-                }
-            }
-            else {
-                ManiaAP_SendItem(17);
->>>>>>> origin/main
             }
             break;
         case ZONE_OOZ:
             if (ActClear->displayedActID == 1) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(56);
                 }
@@ -550,17 +483,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(19);
                 }
-=======
-                ManiaAP_SendItem(18);
-            }
-            else {
-                ManiaAP_SendItem(19);
->>>>>>> origin/main
             }
             break;
         case ZONE_LRZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(58);
                 }
@@ -575,17 +501,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(21);
                 }
-=======
-                ManiaAP_SendItem(20);
-            }
-            else {
-                ManiaAP_SendItem(21);
->>>>>>> origin/main
             }
             break;
         case ZONE_MMZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(60);
                 }
@@ -600,17 +519,10 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(23);
                 }
-=======
-                ManiaAP_SendItem(22);
-            }
-            else {
-                ManiaAP_SendItem(23);
->>>>>>> origin/main
             }
             break;
         case ZONE_TMZ:
             if (Zone->actID == 0) {
-<<<<<<< HEAD
                 if (globals->gameMode == MODE_ENCORE) {
                     ManiaAP_TestSendItem(62);
                 }
@@ -625,12 +537,6 @@ void ActClear_Create(void *data)
                 else {
                     ManiaAP_TestSendItem(25);
                 }
-=======
-                ManiaAP_SendItem(24);
-            }
-            else {
-                ManiaAP_SendItem(25);
->>>>>>> origin/main
             }
             break;
 
@@ -701,11 +607,7 @@ void ActClear_Create(void *data)
                 case 9:
                     if (!SceneInfo->debugMode && globals->gameMode < MODE_TIMEATTACK && SceneInfo->seconds == 59) {
 #if MANIA_USE_PLUS
-<<<<<<< HEAD
                         if (globals->gameMode != MODE_ENCORE && !(globals->unlockedItems[147] >0))
-=======
-                        if (globals->gameMode != MODE_ENCORE && !(globals->medalMods & MEDAL_NOTIMEOVER))
->>>>>>> origin/main
 #endif
                             self->timeBonus = 100000;
                     }

@@ -1,6 +1,6 @@
 #include "APCpp/Archipelago.h"
 #include "ManiaAP.h"
-<<<<<<< HEAD
+
 #include <json/json.h>
 #include <json/reader.h>
 #include <json/value.h>
@@ -34,10 +34,11 @@ void onItemClear()
     }
 }
 
-void onItemReceived(int itemId, bool notify) { 
+void onItemReceived(int itemId, bool notify)
+{
     recievedItems[itemId] += 1;
     switch (itemId) {
-    
+
         case 37:
             recievedItems[6] += 1;
             recievedItems[7] += 1;
@@ -87,36 +88,15 @@ void onItemReceived(int itemId, bool notify) {
             recievedItems[29] += 1;
             break;
 
-
-    default: break;
-    
+        default: break;
     }
-
-
-
-
-=======
-
-
-int recievedItems[150];
-
-
-void onItemClear()
-{
-    for (int i = 0; i < 150; i++) {
-        recievedItems[i]= 0;
-    }
-    }
-
-void onItemReceived(int itemId, bool notify) { 
-    recievedItems[itemId] += 1;
->>>>>>> origin/main
 }
+
 
 void onLocationChecked(int locationId)
 {
     // Mark the location as checked in your game.
-<<<<<<< HEAD
+
     checkedLocations[locationId] = 1;
 }
 
@@ -137,6 +117,8 @@ void registerRingLink(int value) {
 
         }
 }
+
+
 void registerDeathLink(int value)
 {
     deathLink = value;
@@ -221,37 +203,17 @@ void ManiaAP_Init(const char *server, const char *game, const char *slot, const 
     for (int i = 0; i < maxLocs; i++) {
         checkedLocations[i] = 0;
     }
-=======
+
 }
 
-void ManiaAP_Init(const char *server, const char *game, const char *slot, const char *password){
-
-	AP_Init(server, game, slot, password);
 
 
-
-    AP_SetItemClearCallback(onItemClear);
-    AP_SetItemRecvCallback(onItemReceived);
-    AP_SetLocationCheckedCallback(onLocationChecked);
-    for (int i = 0; i < 150; i++) {
-        recievedItems[i] = 0;
-    }
->>>>>>> origin/main
-    AP_Start();
-
-    }
-
-<<<<<<< HEAD
 void ManiaAP_TestSendItem(int item){
-=======
-void ManiaAP_SendItem(int item){
->>>>>>> origin/main
-	
 	
 	AP_SendItem(item);
 	
 }
-<<<<<<< HEAD
+
 int ManiaAP_Goal(int type){
     if (type == goalType) {
         AP_StoryComplete();
@@ -389,12 +351,6 @@ int ManiaAP_CheckAllMedals(int level) {
     }
     return 0;
 }
-=======
-void ManiaAP_Goal(void){
-	AP_StoryComplete();
-}
-int ManiaAP_hasItem(int id) {
 
-    return recievedItems[id]; }
 
->>>>>>> origin/main
+

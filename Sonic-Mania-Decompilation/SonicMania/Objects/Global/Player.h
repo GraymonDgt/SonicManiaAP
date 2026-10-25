@@ -394,10 +394,7 @@ struct EntityPlayer {
     Hitbox *innerbox;
     int32 characterID;
     int32 rings;
-<<<<<<< HEAD
     int32 prevRings;
-=======
->>>>>>> origin/main
     int32 ringExtraLife;
     int32 shield;
     int32 lives;

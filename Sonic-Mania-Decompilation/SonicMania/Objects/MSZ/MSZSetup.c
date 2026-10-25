@@ -418,10 +418,7 @@ void MSZSetup_Trigger_AwardAchievement(void)
 {
     if (!MSZSetup->hasAchievement) {
         API_UnlockAchievement(&achievementList[ACH_MSZ]);
-<<<<<<< HEAD
         ManiaAP_TestSendItem(278);
-=======
->>>>>>> origin/main
         MSZSetup->hasAchievement = true;
     }
 }

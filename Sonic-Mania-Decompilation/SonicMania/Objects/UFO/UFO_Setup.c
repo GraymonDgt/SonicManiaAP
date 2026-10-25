@@ -15,7 +15,6 @@ void UFO_Setup_Update(void)
 
     StateMachine_Run(self->state);
 
-<<<<<<< HEAD
     
 
     if (UFO_Setup->rings - UFO_Setup->prevRings != 0) {
@@ -24,8 +23,6 @@ void UFO_Setup_Update(void)
         UFO_Setup->prevRings = UFO_Setup->rings;
     }
 
-=======
->>>>>>> origin/main
 #if MANIA_USE_PLUS
     if (self->state != UFO_Setup_State_FinishFadeout && globals->gameMode < MODE_TIMEATTACK)
         ++SaveGame_GetSaveRAM()->zoneTimes[29];
@@ -75,10 +72,7 @@ void UFO_Setup_StageLoad(void)
     UFO_Setup->machPoints   = 0;
     UFO_Setup->machLevel    = 0;
     UFO_Setup->rings        = 30;
-<<<<<<< HEAD
     UFO_Setup->prevRings    = 30;
-=======
->>>>>>> origin/main
     UFO_Setup->timedOut     = 0;
     UFO_Setup->resetToTitle = false;
 
@@ -315,11 +309,7 @@ void UFO_Setup_Finish_Win(void)
     EntityUFO_Setup *setup = RSDK_GET_ENTITY(SLOT_UFO_SETUP, UFO_Setup);
 
     //SaveGame_SetEmerald(UFO_Setup->specialStageID);
-<<<<<<< HEAD
     ManiaAP_TestSendItem(UFO_Setup->specialStageID + 26);
-=======
-    ManiaAP_SendItem(26+UFO_Setup->specialStageID);
->>>>>>> origin/main
 
 
     SaveRAM *saveRAM = SaveGame_GetSaveRAM();
@@ -447,11 +437,7 @@ void UFO_Setup_State_HandleRingDrain(void)
 
         if (!UFO_Setup->rings && !UFO_Setup->timedOut) {
             UFO_Setup->timedOut = true;
-<<<<<<< HEAD
             ManiaAP_sendDeath("ran out of rings in a special stage");
-=======
-
->>>>>>> origin/main
             CREATE_ENTITY(UFO_Message, INT_TO_VOID(UFO_MESSAGE_TIMEOVER), self->position.x, self->position.y);
 
             self->state = UFO_Setup_State_TimedOver;
@@ -464,10 +450,7 @@ void UFO_Setup_State_TimedOver(void)
     RSDK_THIS(UFO_Setup);
 
     if (++self->timer >= 90)
-<<<<<<< HEAD
         
-=======
->>>>>>> origin/main
         UFO_Setup_Finish_Fail();
 }
 

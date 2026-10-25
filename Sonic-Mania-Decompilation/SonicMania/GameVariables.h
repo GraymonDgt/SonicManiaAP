@@ -1,9 +1,9 @@
 #ifndef GAME_VARIABLES_H
 #define GAME_VARIABLES_H
 
-// =========================
+// ====
 // GAME ENUMS
-// =========================
+// ====
 
 typedef enum {
 #if !MANIA_USE_PLUS
@@ -191,18 +191,18 @@ typedef enum {
 } GameCheats;
 #endif
 
-// =========================
+// ====
 // GLOBAL VARIABLES
-// =========================
+// ====
 
 typedef struct {
     int32 forcesMode;
     int32 spikeBug;
     int8 unlockedItems[150];
-<<<<<<< HEAD
+
     int8 checkedLocations[300];
-=======
->>>>>>> origin/main
+
+
     int8 fillerBuffer[30];
     int32 gameMode;
     int32 playerID; // active character IDs (usually leader & sidekick)
@@ -278,9 +278,9 @@ typedef struct {
 
 extern GlobalVariables *globals;
 
-// =========================
+// ====
 // GAME HELPERS
-// =========================
+// ====
 
 #if MANIA_USE_PLUS
 #define isMainGameMode() (globals->gameMode == MODE_MANIA || globals->gameMode == MODE_ENCORE)

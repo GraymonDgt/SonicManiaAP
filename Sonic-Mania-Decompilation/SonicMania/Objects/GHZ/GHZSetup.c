@@ -89,13 +89,8 @@ void GHZSetup_StageLoad(void)
             GHZSetup_SetupAct1BG();
         }
 
-<<<<<<< HEAD
         //if (isMainGameMode() && CutsceneRules_IsAct1())
             //Zone->stageFinishCallback = GHZSetup_StageFinish_EndAct1;
-=======
-        if (isMainGameMode() && CutsceneRules_IsAct1())
-            Zone->stageFinishCallback = GHZSetup_StageFinish_EndAct1;
->>>>>>> origin/main
     }
 
 #if MANIA_USE_PLUS

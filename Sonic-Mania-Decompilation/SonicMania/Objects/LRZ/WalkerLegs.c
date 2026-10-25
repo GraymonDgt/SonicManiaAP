@@ -185,10 +185,7 @@ void WalkerLegs_CheckObjectCrush(void)
 
                         if (!WalkerLegs->hasAchievement) {
                             API_UnlockAchievement(&achievementList[ACH_LRZ]);
-<<<<<<< HEAD
                             ManiaAP_TestSendItem(280);
-=======
->>>>>>> origin/main
                             WalkerLegs->hasAchievement = true;
                         }
                     }

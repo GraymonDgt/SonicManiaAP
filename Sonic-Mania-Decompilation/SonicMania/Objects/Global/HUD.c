@@ -42,12 +42,7 @@ void HUD_LateUpdate(void)
 #if GAME_VERSION != VER_100
     if (globals->gameMode < MODE_TIMEATTACK) {
         EntityPlayer *player = RSDK_GET_ENTITY(SLOT_PLAYER1, Player);
-<<<<<<< HEAD
         if (SceneInfo->timeEnabled && player->rings >= 50 && player->superState < SUPERSTATE_SUPER && SaveGame_AllChaosEmeralds()) {
-=======
-        if (SceneInfo->timeEnabled && player->rings >= 50 && player->superState < SUPERSTATE_SUPER
-            && SaveGame_GetSaveRAM()->collectedEmeralds >= 0b01111111) {
->>>>>>> origin/main
             if (sku_platform == PLATFORM_PC || sku_platform == PLATFORM_SWITCH || sku_platform == PLATFORM_DEV)
                 HUD_GetActionButtonFrames();
 
@@ -85,10 +80,7 @@ void HUD_StaticUpdate(void) {}
 void HUD_Draw(void)
 {
     RSDK_THIS(HUD);
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
     EntityPlayer *player = RSDK_GET_ENTITY(SceneInfo->currentScreenID, Player);
 
     Vector2 drawPos;
@@ -137,11 +129,7 @@ void HUD_Draw(void)
 #if GAME_VERSION != VER_100
 #if MANIA_USE_PLUS
     self->timeFlashFrame = 0;
-<<<<<<< HEAD
     if ((SceneInfo->minutes == 9 && isMainGameMode() && !(globals->unlockedItems[147] > 0)) || ActClear->disableTimeBonus)
-=======
-    if ((SceneInfo->minutes == 9 && isMainGameMode() && !(globals->medalMods & MEDAL_NOTIMEOVER)) || ActClear->disableTimeBonus)
->>>>>>> origin/main
         self->timeFlashFrame = (Zone->persistentTimer >> 3) & 1;
 #else
     if (SceneInfo->minutes == 9 && globals->gameMode < MODE_TIMEATTACK)
@@ -185,11 +173,7 @@ void HUD_Draw(void)
         // Draw Minutes
         drawPos.x -= TO_FIXED(9);
 #if MANIA_USE_PLUS
-<<<<<<< HEAD
         if (SceneInfo->minutes > 9 && globals->medalMods & globals->unlockedItems[147] > 0)
-=======
-        if (SceneInfo->minutes > 9 && globals->medalMods & MEDAL_NOTIMEOVER)
->>>>>>> origin/main
             HUD_DrawNumbersBase10(&drawPos, SceneInfo->minutes, 2);
         else
 #endif

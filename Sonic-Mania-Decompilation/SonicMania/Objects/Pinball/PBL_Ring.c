@@ -89,11 +89,7 @@ void PBL_Ring_GiveRing(void)
         PBL_Setup->rings++;
 
     PBL_Setup_GiveScore(10);
-<<<<<<< HEAD
     ManiaAP_sendRings(1);
-=======
-
->>>>>>> origin/main
     if (PBL_Setup->ringPan) {
         int32 channel = RSDK.PlaySfx(PBL_Ring->sfxRing, false, 0xFF);
         RSDK.SetChannelAttributes(channel, 1.0, -1.0, 1.0);

@@ -483,10 +483,7 @@ void ERZKing_State_Explode(void)
         // This boss made it far enough to get the player to the ending... neat!
         GameProgress_GiveEnding(GAMEPROGRESS_ENDING_GOOD);
         API_UnlockAchievement(&achievementList[ACH_GAME_CLEARED]);
-<<<<<<< HEAD
         ManiaAP_TestSendItem(268);
-=======
->>>>>>> origin/main
 
         // It is interesting that the boss doesn't show ending videos, it just takes you to the credits... perhaps they weren't finished yet?
         RSDK.SetScene("Presentation", "Level Select");

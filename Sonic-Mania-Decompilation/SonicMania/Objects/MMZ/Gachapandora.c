@@ -1209,15 +1209,10 @@ void Gachapandora_StatePrize_Destroyed(void)
         self->invincibilityTimer--;
     }
     else {
-<<<<<<< HEAD
         if (++Gachapandora->destroyedToys >= 8 && Gachapandora->awardAchievement) {
             API_UnlockAchievement(&achievementList[ACH_MMZ]);
             ManiaAP_TestSendItem(281);
         }
-=======
-        if (++Gachapandora->destroyedToys >= 8 && Gachapandora->awardAchievement)
-            API_UnlockAchievement(&achievementList[ACH_MMZ]);
->>>>>>> origin/main
 
         destroyEntity(self);
     }

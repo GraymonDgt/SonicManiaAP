@@ -477,7 +477,6 @@ bool32 ERZOutro_Cutscene_ShowEnding(EntityCutsceneSeq *host)
     }
 
     API_UnlockAchievement(&achievementList[ACH_GAME_CLEARED]);
-<<<<<<< HEAD
     ManiaAP_TestSendItem(268);
      // ill implement this at some point
     if (CHECK_CHARACTER_ID(ID_KNUCKLES, 1) && CHECK_CHARACTER_ID(ID_KNUCKLES, 2)) {
@@ -498,13 +497,6 @@ bool32 ERZOutro_Cutscene_ShowEnding(EntityCutsceneSeq *host)
 
 
 
-=======
-    ManiaAP_Goal(); // ill implement this at some point
-    if (CHECK_CHARACTER_ID(ID_KNUCKLES, 1) && CHECK_CHARACTER_ID(ID_KNUCKLES, 2))
-        RSDK.SetScene("Videos", "True End?");
-    else
-        RSDK.SetScene("Videos", "Good End");
->>>>>>> origin/main
 
     RSDK.LoadScene();
     return true;

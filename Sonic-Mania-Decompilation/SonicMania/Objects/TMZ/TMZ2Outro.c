@@ -49,11 +49,7 @@ void TMZ2Outro_StageLoad(void)
 
 void TMZ2Outro_SetupCutscene(void)
 {
-<<<<<<< HEAD
     ManiaAP_TestSendItem(25);
-=======
-    ManiaAP_SendItem(25);
->>>>>>> origin/main
     RSDK_THIS(TMZ2Outro);
 
 #if MANIA_USE_PLUS
@@ -719,11 +715,7 @@ bool32 TMZ2Outro_Cutscene_FinishSequence(EntityCutsceneSeq *host)
         globals->playerID = TMZ2Outro->playerID;
 #if MANIA_USE_PLUS
         if (globals->gameMode == MODE_ENCORE) {
-<<<<<<< HEAD
             RSDK.SetScene("Videos", "Mirage Saloon Encore End");
-=======
-            RSDK.SetScene("Presentation", "Level Select");
->>>>>>> origin/main
         }
         else {
 #endif
@@ -736,16 +728,12 @@ bool32 TMZ2Outro_Cutscene_FinishSequence(EntityCutsceneSeq *host)
 
                 case ID_KNUCKLES:
                     if (CHECK_CHARACTER_ID(ID_KNUCKLES, 2))
-<<<<<<< HEAD
                         if (ManiaAP_Goal(2) != 0) {
                             RSDK.SetScene("Videos", "True End?");
                             RSDK.LoadScene();
 
                             return true;
                     }
-=======
-                        RSDK.SetScene("Videos", "True End?");
->>>>>>> origin/main
                     else
                         RSDK.SetScene("Videos", "Bad End - Knux");
                     break;
@@ -761,7 +749,6 @@ bool32 TMZ2Outro_Cutscene_FinishSequence(EntityCutsceneSeq *host)
 #endif
 
         API_UnlockAchievement(&achievementList[ACH_GAME_CLEARED]);
-<<<<<<< HEAD
         ManiaAP_TestSendItem(268);
         if (ManiaAP_Goal(0) == 0) {
 
@@ -769,10 +756,6 @@ bool32 TMZ2Outro_Cutscene_FinishSequence(EntityCutsceneSeq *host)
         }
         RSDK.LoadScene();
         
-=======
-        RSDK.LoadScene();
-        RSDK.SetScene("Presentation", "Level Select");
->>>>>>> origin/main
         return true;
     }
 

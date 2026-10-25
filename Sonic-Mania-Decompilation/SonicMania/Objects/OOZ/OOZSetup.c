@@ -457,11 +457,8 @@ void OOZSetup_Trigger_AwardAchievement(void)
 {
     if (!OOZSetup->hasAchievement) {
         API_UnlockAchievement(&achievementList[ACH_OOZ]);
-<<<<<<< HEAD
 
         ManiaAP_TestSendItem(279);
-=======
->>>>>>> origin/main
         OOZSetup->hasAchievement = true;
     }
 }

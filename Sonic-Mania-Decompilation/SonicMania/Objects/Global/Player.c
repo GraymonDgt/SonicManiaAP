@@ -29,7 +29,6 @@ void Player_Update(void)
     for (int16 i = 100; i < 130; i++) {
         globals->unlockedItems[i] = ManiaAP_hasItem(i);
     }
-<<<<<<< HEAD
     globals->unlockedItems[147] = ManiaAP_hasItem(147);
 
     //update received items
@@ -57,12 +56,6 @@ void Player_Update(void)
     if (ManiaAP_checkDeath() != 0) {
         self->deathType = PLAYER_DEATH_DIE_USESFX;
     }
-=======
-
-
-    //update received items
-    //run all filler stuff here
->>>>>>> origin/main
 
     if (globals->unlockedItems[100] > globals->fillerBuffer[0] ) {
         self->shield = SHIELD_BLUE;
@@ -112,10 +105,7 @@ void Player_Update(void)
 
     if (globals->unlockedItems[120] > globals->fillerBuffer[20]) {
         RSDK.PlaySfx(Player->sfxSwapFail, false, 255);
-<<<<<<< HEAD
         AttemptItemNotification();
-=======
->>>>>>> origin/main
         globals->fillerBuffer[20] = globals->unlockedItems[120];
     }
     if (globals->unlockedItems[121] > globals->fillerBuffer[21]) {
@@ -146,11 +136,8 @@ void Player_Update(void)
         globals->forcesMode       = true;
         globals->fillerBuffer[23] = globals->unlockedItems[123];
     }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/main
             
     if (self->classID == Player->classID) {
         if (self->camera) {
@@ -346,7 +333,6 @@ void Player_LateUpdate(void)
                 RSDK.PlaySfx(Player->sfxHurt, false, 255);
                 // [Fallthrough]
             case PLAYER_DEATH_DIE_NOSFX:
-<<<<<<< HEAD
                 //send deathlink if not sidekick
                 if (!self->sidekick) {
                 
@@ -354,8 +340,6 @@ void Player_LateUpdate(void)
                 
                 }
 
-=======
->>>>>>> origin/main
                 self->deathType  = PLAYER_DEATH_NONE;
                 self->velocity.y = -0x68000;
                 self->state      = Player_State_Death;
@@ -395,10 +379,7 @@ void Player_LateUpdate(void)
 
             case PLAYER_DEATH_DROWN:
                 self->deathType = PLAYER_DEATH_NONE;
-<<<<<<< HEAD
                 
-=======
->>>>>>> origin/main
                 // Bug Details:
                 // setting this actually causes a slight bug, as when you die the underwater flag is cleared but your gravity strength isn't updated
                 // so if you debug out, you'll have regular speed with a moon jump
@@ -409,10 +390,7 @@ void Player_LateUpdate(void)
                 self->state = Player_State_Drown;
 
                 if (!self->sidekick) {
-<<<<<<< HEAD
                     ManiaAP_sendDeath("drowned");
-=======
->>>>>>> origin/main
                     if (globals->gameMode == MODE_COMPETITION) {
                         Music_JingleFadeOut(TRACK_DROWNING, false);
                     }
@@ -584,10 +562,7 @@ void Player_Draw(void)
 {
     RSDK_THIS(Player);
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
 #if MANIA_USE_PLUS
     if (self->isGhost) {
         self->inkEffect = INK_BLEND;
@@ -691,10 +666,7 @@ void Player_Draw(void)
 
 void Player_Create(void *data)
 {
-<<<<<<< HEAD
     ManiaAP_resetDeathLink();
-=======
->>>>>>> origin/main
     for (int8 i = 0; i < 30; i++) {
         globals->fillerBuffer[i] =  ManiaAP_hasItem(i+100);
         ;
@@ -702,11 +674,7 @@ void Player_Create(void *data)
     globals->forcesMode = false;
     globals->spikeBug = false;
     RSDK_THIS(Player);
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/main
     if (SceneInfo->inEditor) {
         RSDK.SetSpriteAnimation(Player->sonicFrames, ANI_IDLE, &self->animator, true, 0);
         self->characterID = ID_SONIC;
@@ -809,10 +777,7 @@ void Player_Create(void *data)
 
         // Handle Powerups
         self->rings           = Player->rings;
-<<<<<<< HEAD
         self->prevRings       = self->rings;
-=======
->>>>>>> origin/main
         self->ringExtraLife   = Player->ringExtraLife;
         Player->rings         = 0;
         Player->ringExtraLife = 100;
@@ -886,17 +851,10 @@ void Player_StageLoad(void)
     Player->raySmallFrames = RSDK.LoadSpriteAnimation("Players/ChibiRay.bin", SCOPE_STAGE);
 #endif
 
-<<<<<<< HEAD
     //if (globals->medalMods & MEDAL_ANDKNUCKLES) {
     //    globals->playerID &= 0xFF;
     //    globals->playerID |= ID_KNUCKLES_ASSIST;
     //}
-=======
-    if (globals->medalMods & MEDAL_ANDKNUCKLES) {
-        globals->playerID &= 0xFF;
-        globals->playerID |= ID_KNUCKLES_ASSIST;
-    }
->>>>>>> origin/main
 
     Player->playerCount = 0;
     Player->active      = ACTIVE_ALWAYS;
@@ -1386,11 +1344,7 @@ bool32 Player_TryTransform(EntityPlayer *player, uint8 emeraldMasks)
 #endif
 
 #if MANIA_USE_PLUS
-<<<<<<< HEAD
     if ((player->superState >= SUPERSTATE_SUPER || !SaveGame_AllChaosEmeralds() || player->rings < 50))
-=======
-    if ((player->superState >= SUPERSTATE_SUPER || emeralds != 0b01111111 || player->rings < 50) && emeraldMasks != 0xFF)
->>>>>>> origin/main
         return false;
 
     RSDK.StopSfx(Player->sfxSwapFail);

@@ -48,16 +48,11 @@ void BSS_Collectable_Draw(void)
             RSDK.DrawSprite(&BSS_Collectable->sphereAnimator[self->type], NULL, true);
             break;
 
-<<<<<<< HEAD
 
         case BSS_MEDAL_GOLD:
 
         case BSS_MEDAL_SILVER:
         
-=======
-        case BSS_MEDAL_SILVER:
-        case BSS_MEDAL_GOLD:
->>>>>>> origin/main
             self->drawFX  = FX_SCALE;
             self->scale.x = BSS_Collectable->medalScaleTable[self->animator.frameID];
             self->scale.y = BSS_Collectable->medalScaleTable[self->animator.frameID];

@@ -56,10 +56,7 @@ void ItemBox_Draw(void)
     RSDK_THIS(ItemBox);
 
     if (!self->hidden) {
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
         if (self->isContents) {
             if (SceneInfo->currentDrawGroup == Zone->playerDrawGroup[1]) {
                 self->drawFX = FX_NONE;
@@ -84,13 +81,10 @@ void ItemBox_Draw(void)
             self->inkEffect = INK_NONE;
             RSDK.DrawSprite(&self->debrisAnimator, NULL, false);
         }
-<<<<<<< HEAD
         if (self->hidden) {
             self->inkEffect = INK_ALPHA;
             self->alpha     = 0x80;
         }
-=======
->>>>>>> origin/main
     }
 }
 
@@ -171,10 +165,7 @@ void ItemBox_Create(void *data)
         }
         else if (self->hidden) {
             self->state = StateMachine_None;
-<<<<<<< HEAD
             self->position.y -= TO_FIXED(32);
-=======
->>>>>>> origin/main
         }
         else if (self->isFalling) {
             self->active = ACTIVE_NORMAL;

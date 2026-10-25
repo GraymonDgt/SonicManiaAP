@@ -7,10 +7,7 @@
 
 #include "Game.h"
 #include <time.h>
-<<<<<<< HEAD
 #include "ManiaAP.h"
-=======
->>>>>>> origin/main
 
 ObjectBSS_Setup *BSS_Setup;
 
@@ -31,7 +28,6 @@ void BSS_Setup_Update(void)
         RSDK.CopyPalette(2, 16 * self->paletteLine, 0, 144, 16);
     }
 
-<<<<<<< HEAD
     if (ManiaAP_checkDeath() != 0) {
         self->palettePage ^= 1;
         self->state      = BSS_Setup_State_GlobeExit;
@@ -50,8 +46,6 @@ void BSS_Setup_Update(void)
 
 
 
-=======
->>>>>>> origin/main
 #if MANIA_USE_PLUS
     EntityMenuParam *param = MenuParam_GetParam();
     if (param->bssSelection == BSS_SELECTION_NONE && !self->stopMovement && globals->gameMode < MODE_TIMEATTACK)
@@ -82,11 +76,7 @@ void BSS_Setup_Draw(void)
 void BSS_Setup_Create(void *data)
 {
     RSDK_THIS(BSS_Setup);
-<<<<<<< HEAD
     ManiaAP_resetDeathLink();
-=======
-
->>>>>>> origin/main
     if (!SceneInfo->inEditor) {
         self->active          = ACTIVE_BOUNDS;
         self->visible         = true;
@@ -361,11 +351,7 @@ void BSS_Setup_CollectRing(void)
     RSDK_THIS(BSS_Setup);
 
     ++BSS_Setup->rings;
-<<<<<<< HEAD
     ManiaAP_sendRings(1);
-=======
-
->>>>>>> origin/main
     if (BSS_Setup->ringCount > 0) {
         BSS_Setup->ringCount--;
 
@@ -646,11 +632,7 @@ void BSS_Setup_HandleSteppedObjects(void)
                 self->playerPos.y -= RSDK.Cos256(self->angle) >> 8;
                 self->playerPos.y &= 0x1F;
                 RSDK.PlaySfx(BSS_Setup->sfxSSExit, false, 255);
-<<<<<<< HEAD
                 ManiaAP_sendDeath("touched a red sphere");
-=======
-
->>>>>>> origin/main
                 Music_FadeOut(0.0125);
             }
             break;
@@ -725,7 +707,6 @@ void BSS_Setup_HandleSteppedObjects(void)
                                           : BSS_Setup->playField[fieldPos] == BSS_MEDAL_GOLD ? 2
                                                                                              : 0;
 
-<<<<<<< HEAD
 
                             if (medal > 0) {
                                 ManiaAP_TestSendItem(globals->blueSpheresID + 201);
@@ -742,8 +723,6 @@ void BSS_Setup_HandleSteppedObjects(void)
                                 ManiaAP_TestSendItem(270);
                             }
 
-=======
->>>>>>> origin/main
                             if (medal)
                                 GameProgress_GiveMedal(pos, medal);
 

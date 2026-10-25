@@ -19,10 +19,7 @@ struct EntitySpecialRing {
     RSDK_ENTITY
     StateMachine(state);
     int32 id;
-<<<<<<< HEAD
     int32 checkId;
-=======
->>>>>>> origin/main
     int32 planeFilter;
     int32 warpTimer;
     int32 sparkleRadius;

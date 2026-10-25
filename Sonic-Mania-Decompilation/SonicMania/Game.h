@@ -1,10 +1,10 @@
 #ifndef GAME_H
 #define GAME_H
 
-// =====================================================================
+// ======
 // RSDK Project: Sonic Mania (Plus)
 // Decompiled by: Rubberduckycooly & RMGRich
-// =====================================================================
+// ======
 
 // -------------------------
 // ENGINE VERSIONS
@@ -92,8 +92,8 @@
 #include "GameObjects.h"
 
 #endif //! GAME_H
-<<<<<<< HEAD
+
 
 void AttemptItemNotification(void);
-=======
->>>>>>> origin/main
+
+

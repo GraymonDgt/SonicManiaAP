@@ -285,8 +285,8 @@ namespace ix
             ss << "Sending " << verb << " request "
                << "to " << host << ":" << port << std::endl
                << "request size: " << req.size() << " bytes" << std::endl
-               << "=============" << std::endl
-               << req << "=============" << std::endl
+               << "======" << std::endl
+               << req << "======" << std::endl
                << std::endl;
 
             log(ss.str(), args);
